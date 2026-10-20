@@ -2,13 +2,14 @@
 **Target Process:** SkyWater 130nm CMOS (`sky130_fd_sc_hd`)  
 **Design Block:** `dma_axi32` (32-bit AXI3 Dual-Core DMA Controller)  
 **EDA Flow:** Icarus Verilog $\to$ Yosys $\to$ OpenROAD v2.0 (Native Multi-Threaded) $\to$ KLayout v0.28.16  
-**Reference Curriculum:** *Physical Design Reference book.pdf* (Chapters 1–17) & *PR200_trm_rev1.6.pdf*
+**Original IP Core:** Provartec Ltd. via [OpenCores.org](http://www.opencores.org) (Author: Eyal Hochberg, GNU LGPL)  
+**Reference Curriculum:** [Physical Design Reference Book (Chapters 1–17)](reference/Physical_Design_Reference_Book.pdf) & [PR200 Technical Reference Manual Rev 1.6](reference/PR200_trm_rev1.6.pdf)
 
 ---
 
 ## 1. Executive Summary
 
-This report documents the complete academic ASIC implementation and physical design signoff of the commercial-grade **Provartec PR200 AXI DMA controller (`dma_axi32`)**, migrated and fabricated virtually to the **SkyWater 130nm** open-source process design kit (`sky130A`). 
+This report documents the complete academic ASIC implementation and physical design signoff of the commercial-grade **Provartec PR200 AXI DMA controller (`dma_axi32`)**, published on OpenCores and migrated/fabricated virtually to the **SkyWater 130nm** open-source process design kit (`sky130A`). 
 
 All steps follow standard Cadence Innovus / Synopsys ICC2 equivalents using open-source, evidence-backed tools. Every metric presented below is derived directly from tool execution logs, dumped VCD waveforms, and signoff reports.
 

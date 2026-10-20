@@ -3,7 +3,17 @@
 **Target Process:** SkyWater 130nm CMOS (`sky130_fd_sc_hd`)  
 **Design:** `dma_axi32` (Commercial-Grade 32-bit Dual-Core AXI3 DMA Controller)  
 **EDA Flow:** Icarus Verilog $\to$ Yosys $\to$ OpenROAD v2.0 (Multi-Threaded) $\to$ KLayout v0.28.16  
-**Reference:** *Physical Design Reference book* & *PR200 Technical Reference Manual*  
+**Original IP Core:** Provartec Ltd. via [OpenCores.org](http://www.opencores.org) (Author: Eyal Hochberg)  
+**Reference Curriculum:** *Physical Design Reference book* & *PR200 Technical Reference Manual*  
+
+---
+
+## 📚 Source Reference Documentation & PDFs
+
+The foundational reference materials and architectural specifications used throughout this project are preserved directly within this repository:
+
+1. **[Physical Design Reference Book (Chapters 1–17)](docs/reference/Physical_Design_Reference_Book.pdf)**: Complete reference handbook covering standard cell ASIC implementation, SDC constraints, floorplanning, CTS, global/detailed routing, and timing signoff.
+2. **[Provartec PR200 Technical Reference Manual (TRM Rev 1.6)](docs/reference/PR200_trm_rev1.6.pdf)**: Official 32-bit/64-bit dual-core AXI DMA controller hardware specification, register programming map, and AMBA AXI3 bus protocol definitions.
 
 ---
 
@@ -56,7 +66,9 @@ gtkwave sim/waveforms/dma_axi32.vcd
 
 * `constraints/` — SDC timing constraints (`dma_axi32.sdc` for $50\,\text{MHz}$ signoff).
 * `dma_axi/` — Provartec PR200 Verilog RTL source files and technical reference manual.
-* `docs/` — Comprehensive engineering report ([`PR200_DMA_Physical_Design_Final_Report.md`](docs/PR200_DMA_Physical_Design_Final_Report.md)).
+* `docs/` — Comprehensive engineering report ([`PR200_DMA_Physical_Design_Final_Report.md`](docs/PR200_DMA_Physical_Design_Final_Report.md)) and reference PDFs.
+  * `docs/reference/Physical_Design_Reference_Book.pdf` — Cadence/Synopsys physical design reference curriculum.
+  * `docs/reference/PR200_trm_rev1.6.pdf` — Provartec PR200 hardware reference manual.
 * `pd/` — Complete physical design outputs: Floorplan, Placement, CTS, Routing, Reports, DEF, and GDSII.
 * `scripts/` — Automated execution scripts for simulation, OpenROAD physical design, and KLayout visualization.
 * `sim/` — Dumped VCD waveforms and simulation execution logs.
@@ -66,6 +78,8 @@ gtkwave sim/waveforms/dma_axi32.vcd
 ---
 
 ## 📜 Authors & Acknowledgments
-* **Author / Implementer:** Sai Kiran ([@saikirankvdd](https://github.com/saikirankvdd))
+
+* **Original RTL Architecture & IP Core:** **Eyal Hochberg**, **Provartec Ltd.** ([OpenCores.org](http://www.opencores.org)). Released under the GNU Lesser General Public License (LGPL).
+* **ASIC Implementation & Physical Design:** **Sai Kiran** ([@saikirankvdd](https://github.com/saikirankvdd))
 * **Target Foundry:** SkyWater Technology (130nm High-Density CMOS)
 * **EDA Tools:** Yosys, OpenROAD, KLayout, Icarus Verilog, GTKWave
