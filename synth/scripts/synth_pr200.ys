@@ -1,0 +1,72 @@
+# ==============================================================================
+# Full ASIC Synthesis Script: PR200 AXI DMA (dma_axi32)
+# Target Technology: SkyWater 130nm High-Density Standard Cells (sky130_fd_sc_hd)
+# ==============================================================================
+
+# 1. Read RTL files
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_defines.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_dual_core.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_apb_mux.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_reg.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_reg_core0.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/prgen_scatter8_1.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_top.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_wdt.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_arbiter.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ctrl.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_axim_wr.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_axim_cmd.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_axim_timeout.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_axim_wdata.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/prgen_joint_stall.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/prgen_fifo.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/prgen_stall.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_axim_resp.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_axim_rd.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_axim_rdata.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_channels.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_channels_apb_mux.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_channels_mux.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/prgen_or8.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/prgen_mux8.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/prgen_demux8.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_reg.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_reg_size.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/prgen_rawstat.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_offsets.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_remain.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_outs.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_addr.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_size.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/prgen_min3.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/prgen_min2.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_joint.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_periph_mux.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_fifo_ctrl.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_wr_slicer.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/prgen_swap_32.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_rd_slicer.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_fifo_ptr.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_fifo.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/dma_axi32_core0_ch_empty.v
+read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/prgen_delay.v
+
+# 2. Generic Synthesis with Flattening
+synth -top dma_axi32 -flatten
+
+# 3. Standard Cell Mapping (SkyWater 130nm)
+dfflibmap -liberty /home/saikiran/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty /home/saikiran/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+# 4. Tie-off high/low cell insertion & port splitting
+hilomap -hicell sky130_fd_sc_hd__conb_1 HI -locell sky130_fd_sc_hd__conb_1 LO
+splitnets -ports
+opt_clean -purge
+
+# 5. Output Gate Netlist & Area Statistics
+write_verilog -noattr synth/reports/dma_axi32_synth.v
+stat -liberty /home/saikiran/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib

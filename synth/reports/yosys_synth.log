@@ -1,0 +1,1126 @@
+=== Step 1/5: Reading Verilog RTL Files ===
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.33 (git sha1 2584903a060)
+
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_defines.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_defines.v' to AST representation.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_dual_core.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_dual_core.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_dual_core'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_apb_mux.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_apb_mux.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_apb_mux'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_reg.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_reg.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_reg'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_reg.v:235.4-261.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_reg_core0.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_reg_core0.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_reg_core0'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/prgen_scatter8_1.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/prgen_scatter8_1.v' to AST representation.
+Generating RTLIL representation for module `\prgen_scatter8_1'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_top.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_top.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_top'.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0'.
+Successfully finished Verilog frontend.
+
+10. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_wdt.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_wdt.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_wdt'.
+Successfully finished Verilog frontend.
+
+11. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_arbiter.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_arbiter.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_arbiter'.
+Successfully finished Verilog frontend.
+
+12. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ctrl.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ctrl.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ctrl'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_ctrl.v:141.4-256.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+13. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_axim_wr.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_axim_wr.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_axim_wr'.
+Successfully finished Verilog frontend.
+
+14. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_axim_cmd.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_axim_cmd.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_axim_cmd'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_axim_cmd.v:221.4-226.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+15. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_axim_timeout.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_axim_timeout.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_axim_timeout'.
+Successfully finished Verilog frontend.
+
+16. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_axim_wdata.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_axim_wdata.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_axim_wdata'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_axim_wdata.v:183.4-191.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_axim_wdata.v:274.4-290.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+17. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/prgen_joint_stall.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/prgen_joint_stall.v' to AST representation.
+Generating RTLIL representation for module `\prgen_joint_stall'.
+Successfully finished Verilog frontend.
+
+18. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/prgen_fifo.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/prgen_fifo.v' to AST representation.
+Generating RTLIL representation for module `\prgen_fifo'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:136.4-140.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:142.4-146.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+19. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/prgen_stall.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/prgen_stall.v' to AST representation.
+Generating RTLIL representation for module `\prgen_stall'.
+Successfully finished Verilog frontend.
+
+20. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_axim_resp.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_axim_resp.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_axim_resp'.
+Successfully finished Verilog frontend.
+
+21. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_axim_rd.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_axim_rd.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_axim_rd'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_axim_rd.v:141.4-149.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+22. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_axim_rdata.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_axim_rdata.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_axim_rdata'.
+Successfully finished Verilog frontend.
+
+23. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_channels.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_channels.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_channels'.
+Successfully finished Verilog frontend.
+
+24. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_channels_apb_mux.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_channels_apb_mux.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_channels_apb_mux'.
+Successfully finished Verilog frontend.
+
+25. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_channels_mux.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_channels_mux.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_channels_mux'.
+Successfully finished Verilog frontend.
+
+26. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/prgen_or8.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/prgen_or8.v' to AST representation.
+Generating RTLIL representation for module `\prgen_or8'.
+Successfully finished Verilog frontend.
+
+27. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/prgen_mux8.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/prgen_mux8.v' to AST representation.
+Generating RTLIL representation for module `\prgen_mux8'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_mux8.v:53.4-68.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+28. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/prgen_demux8.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/prgen_demux8.v' to AST representation.
+Generating RTLIL representation for module `\prgen_demux8'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_demux8.v:54.4-71.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+29. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch'.
+Successfully finished Verilog frontend.
+
+30. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_reg.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_reg.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_reg'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_ch_reg.v:737.4-852.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_ch_reg.v:856.4-896.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_ch_reg.v:900.4-934.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+31. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_reg_size.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_reg_size.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_reg_size'.
+Successfully finished Verilog frontend.
+
+32. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/prgen_rawstat.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/prgen_rawstat.v' to AST representation.
+Generating RTLIL representation for module `\prgen_rawstat'.
+Successfully finished Verilog frontend.
+
+33. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_offsets.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_offsets.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_offsets'.
+Successfully finished Verilog frontend.
+
+34. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_remain.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_remain.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_remain'.
+Successfully finished Verilog frontend.
+
+35. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_outs.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_outs.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_outs'.
+Successfully finished Verilog frontend.
+
+36. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_calc'.
+Successfully finished Verilog frontend.
+
+37. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_addr.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_addr.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_calc_addr'.
+Successfully finished Verilog frontend.
+
+38. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_size.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_size.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_calc_size'.
+Successfully finished Verilog frontend.
+
+39. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/prgen_min3.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/prgen_min3.v' to AST representation.
+Generating RTLIL representation for module `\prgen_min3'.
+Successfully finished Verilog frontend.
+
+40. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/prgen_min2.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/prgen_min2.v' to AST representation.
+Generating RTLIL representation for module `\prgen_min2'.
+Successfully finished Verilog frontend.
+
+41. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_joint.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_joint.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_calc_joint'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_joint.v:117.4-255.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+42. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_periph_mux.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_periph_mux.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_periph_mux'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_ch_periph_mux.v:59.4-64.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+43. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_fifo_ctrl.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_fifo_ctrl.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_fifo_ctrl'.
+Successfully finished Verilog frontend.
+
+44. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_wr_slicer.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_wr_slicer.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_wr_slicer'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_ch_wr_slicer.v:157.4-165.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_ch_wr_slicer.v:168.4-176.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_ch_wr_slicer.v:188.4-196.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+45. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/prgen_swap_32.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/prgen_swap_32.v' to AST representation.
+Generating RTLIL representation for module `\prgen_swap32'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_swap_32.v:53.4-61.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_swap_32.v:63.4-71.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+46. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_rd_slicer.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_rd_slicer.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_rd_slicer'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_ch_rd_slicer.v:108.4-116.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_ch_rd_slicer.v:119.4-127.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Successfully finished Verilog frontend.
+
+47. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_fifo_ptr.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_fifo_ptr.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_fifo_ptr'.
+Successfully finished Verilog frontend.
+
+48. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_fifo.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_fifo.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_fifo'.
+Successfully finished Verilog frontend.
+
+49. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/dma_axi32_core0_ch_empty.v
+Parsing Verilog input from `dma_axi/src/dma_axi32/dma_axi32_core0_ch_empty.v' to AST representation.
+Generating RTLIL representation for module `\dma_axi32_core0_ch_empty'.
+Successfully finished Verilog frontend.
+
+50. Executing Verilog-2005 frontend: dma_axi/src/dma_axi32/prgen_delay.v
+=== Step 2/5: Elaborating Design Hierarchy (Top: dma_axi32) ===
+Parsing Verilog input from `dma_axi/src/dma_axi32/prgen_delay.v' to AST representation.
+Generating RTLIL representation for module `\prgen_delay'.
+Successfully finished Verilog frontend.
+
+51. Executing HIERARCHY pass (managing design hierarchy).
+
+51.1. Analyzing design hierarchy..
+Top module:  \dma_axi32
+Used module:     \dma_axi32_dual_core
+Used module:         \prgen_delay
+Used module:         \dma_axi32_core0_top
+Used module:             \dma_axi32_core0
+Used module:                 \dma_axi32_core0_channels
+Used module:                     \dma_axi32_core0_ch_empty
+Used module:                     \dma_axi32_core0_ch
+Used module:                         \dma_axi32_core0_ch_fifo_ctrl
+Used module:                             \dma_axi32_core0_ch_fifo
+Used module:                             \dma_axi32_core0_ch_fifo_ptr
+Used module:                             \dma_axi32_core0_ch_rd_slicer
+Used module:                                 \prgen_min2
+Used module:                             \dma_axi32_core0_ch_wr_slicer
+Used module:                                 \prgen_swap32
+Used module:                         \dma_axi32_core0_ch_periph_mux
+Used module:                         \dma_axi32_core0_ch_calc
+Used module:                             \dma_axi32_core0_ch_calc_size
+Used module:                                 \dma_axi32_core0_ch_calc_joint
+Used module:                                 \prgen_min3
+Used module:                             \dma_axi32_core0_ch_calc_addr
+Used module:                         \dma_axi32_core0_ch_outs
+Used module:                         \dma_axi32_core0_ch_remain
+Used module:                         \dma_axi32_core0_ch_offsets
+Used module:                         \dma_axi32_core0_ch_reg
+Used module:                             \prgen_rawstat
+Used module:                             \dma_axi32_core0_ch_reg_size
+Used module:                     \dma_axi32_core0_channels_mux
+Used module:                         \prgen_mux8
+Used module:                         \prgen_demux8
+Used module:                         \prgen_or8
+Used module:                     \dma_axi32_core0_channels_apb_mux
+Used module:                 \dma_axi32_core0_axim_rd
+Used module:                     \dma_axi32_core0_axim_resp
+Used module:                         \prgen_fifo
+Used module:                     \dma_axi32_core0_axim_rdata
+Used module:                     \dma_axi32_core0_axim_cmd
+Used module:                         \dma_axi32_core0_axim_timeout
+Used module:                 \dma_axi32_core0_axim_wr
+Used module:                     \dma_axi32_core0_axim_wdata
+Used module:                         \prgen_joint_stall
+Used module:                             \prgen_stall
+Used module:                 \dma_axi32_core0_ctrl
+Used module:                 \dma_axi32_core0_arbiter
+Used module:                 \dma_axi32_core0_wdt
+Used module:         \dma_axi32_reg
+Used module:             \dma_axi32_reg_core0
+Used module:                 \prgen_scatter8_1
+Used module:         \dma_axi32_apb_mux
+Parameter 1 (\DELAY) = 1
+
+51.2. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_delay'.
+Parameter 1 (\DELAY) = 1
+Generating RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\CH_NUM) = 0
+
+51.3. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_scatter8_1'.
+Parameter 1 (\CH_NUM) = 0
+Generating RTLIL representation for module `$paramod\prgen_scatter8_1\CH_NUM=s32'00000000000000000000000000000000'.
+Parameter \CMD_DEPTH = 2
+
+51.4. Executing AST frontend in derive mode using pre-parsed AST for module `\dma_axi32_core0_axim_resp'.
+Parameter \CMD_DEPTH = 2
+Generating RTLIL representation for module `$paramod\dma_axi32_core0_axim_resp\CMD_DEPTH=s32'00000000000000000000000000000010'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter \CMD_DEPTH = 2
+Found cached RTLIL representation for module `$paramod\dma_axi32_core0_axim_resp\CMD_DEPTH=s32'00000000000000000000000000000010'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 32
+Parameter 2 (\DEPTH_FULL) = 7
+
+51.5. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_fifo'.
+Parameter 1 (\WIDTH) = 32
+Parameter 2 (\DEPTH_FULL) = 7
+Generating RTLIL representation for module `$paramod$ad8b4cd895cde9c619fca232cdaf8c654d1da422\prgen_fifo'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:136.4-140.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:142.4-146.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\WIDTH) = 17
+Parameter 2 (\DEPTH_FULL) = 2
+
+51.6. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_fifo'.
+Parameter 1 (\WIDTH) = 17
+Parameter 2 (\DEPTH_FULL) = 2
+Generating RTLIL representation for module `$paramod$9deb52a5178c44f1da22c9b03e1cda37deae9ff9\prgen_fifo'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:136.4-140.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:142.4-146.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\WIDTH) = 14
+Parameter 2 (\DEPTH_FULL) = 2
+
+51.7. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_fifo'.
+Parameter 1 (\WIDTH) = 14
+Parameter 2 (\DEPTH_FULL) = 2
+Generating RTLIL representation for module `$paramod$a9bf6ed044d5912b609be221a8d8e573242abfcc\prgen_fifo'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:136.4-140.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:142.4-146.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\DELAY) = 2
+
+51.8. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_delay'.
+Parameter 1 (\DELAY) = 2
+Generating RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000010'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\SIZE_BITS) = 3
+
+51.9. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_joint_stall'.
+Parameter 1 (\SIZE_BITS) = 3
+Generating RTLIL representation for module `$paramod\prgen_joint_stall\SIZE_BITS=s32'00000000000000000000000000000011'.
+Parameter 1 (\WIDTH) = 7
+Parameter 2 (\DEPTH_FULL) = 8
+
+51.10. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_fifo'.
+Parameter 1 (\WIDTH) = 7
+Parameter 2 (\DEPTH_FULL) = 8
+Generating RTLIL representation for module `$paramod$129dcf68dd96635e9a29d2021d0ea0d21766335c\prgen_fifo'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:136.4-140.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:142.4-146.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DEPTH) = 3
+
+51.11. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_stall'.
+Parameter 1 (\DEPTH) = 3
+Generating RTLIL representation for module `$paramod\prgen_stall\DEPTH=s32'00000000000000000000000000000011'.
+Parameter 1 (\WIDTH) = 1
+Parameter 2 (\DEPTH_FULL) = 2
+
+51.12. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_fifo'.
+Parameter 1 (\WIDTH) = 1
+Parameter 2 (\DEPTH_FULL) = 2
+Generating RTLIL representation for module `$paramod$ab4d786fe00c72328150f5a3b890c098838a15c5\prgen_fifo'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:136.4-140.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:142.4-146.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 2
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000010'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 32
+
+51.13. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_mux8'.
+Parameter 1 (\WIDTH) = 32
+Generating RTLIL representation for module `$paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000100000'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_mux8.v:53.4-68.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\WIDTH) = 1
+
+51.14. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_demux8'.
+Parameter 1 (\WIDTH) = 1
+Generating RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_demux8.v:54.4-71.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\WIDTH) = 7
+
+51.15. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_mux8'.
+Parameter 1 (\WIDTH) = 7
+Generating RTLIL representation for module `$paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000111'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_mux8.v:53.4-68.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\WIDTH) = 32
+Found cached RTLIL representation for module `$paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000100000'.
+Parameter 1 (\WIDTH) = 1
+
+51.16. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_mux8'.
+Parameter 1 (\WIDTH) = 1
+Generating RTLIL representation for module `$paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000001'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_mux8.v:53.4-68.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 6
+
+51.17. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_mux8'.
+Parameter 1 (\WIDTH) = 6
+Generating RTLIL representation for module `$paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000110'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_mux8.v:53.4-68.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\WIDTH) = 6
+Found cached RTLIL representation for module `$paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000110'.
+Parameter 1 (\WIDTH) = 7
+Found cached RTLIL representation for module `$paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000111'.
+Parameter 1 (\WIDTH) = 32
+Found cached RTLIL representation for module `$paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000100000'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+
+51.18. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_or8'.
+Parameter 1 (\WIDTH) = 1
+Generating RTLIL representation for module `$paramod\prgen_or8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_or8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_or8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 3
+
+51.19. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_mux8'.
+Parameter 1 (\WIDTH) = 3
+Generating RTLIL representation for module `$paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000011'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_mux8.v:53.4-68.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\WIDTH) = 3
+Found cached RTLIL representation for module `$paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000011'.
+Parameter 1 (\WIDTH) = 31
+
+51.20. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_or8'.
+Parameter 1 (\WIDTH) = 31
+Generating RTLIL representation for module `$paramod\prgen_or8\WIDTH=s32'00000000000000000000000000011111'.
+Parameter 1 (\WIDTH) = 31
+Found cached RTLIL representation for module `$paramod\prgen_or8\WIDTH=s32'00000000000000000000000000011111'.
+Parameter 1 (\WIDTH) = 32
+
+51.21. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_or8'.
+Parameter 1 (\WIDTH) = 32
+Generating RTLIL representation for module `$paramod\prgen_or8\WIDTH=s32'00000000000000000000000000100000'.
+Parameter 1 (\WIDTH) = 1
+Found cached RTLIL representation for module `$paramod\prgen_or8\WIDTH=s32'00000000000000000000000000000001'.
+Parameter \READ = 0
+
+51.22. Executing AST frontend in derive mode using pre-parsed AST for module `\dma_axi32_core0_ch_calc'.
+Parameter \READ = 0
+Generating RTLIL representation for module `$paramod\dma_axi32_core0_ch_calc\READ=s32'00000000000000000000000000000000'.
+Parameter \READ = 1
+
+51.23. Executing AST frontend in derive mode using pre-parsed AST for module `\dma_axi32_core0_ch_calc'.
+Parameter \READ = 1
+Generating RTLIL representation for module `$paramod\dma_axi32_core0_ch_calc\READ=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\SIZE) = 13
+
+51.24. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_rawstat'.
+Parameter 1 (\SIZE) = 13
+Generating RTLIL representation for module `$paramod\prgen_rawstat\SIZE=s32'00000000000000000000000000001101'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter \READ = 0
+
+51.25. Executing AST frontend in derive mode using pre-parsed AST for module `\dma_axi32_core0_ch_calc_size'.
+Parameter \READ = 0
+Generating RTLIL representation for module `$paramod\dma_axi32_core0_ch_calc_size\READ=s32'00000000000000000000000000000000'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 7
+
+51.26. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_min2'.
+Parameter 1 (\WIDTH) = 7
+Generating RTLIL representation for module `$paramod\prgen_min2\WIDTH=s32'00000000000000000000000000000111'.
+Parameter 1 (\READ) = 0
+
+51.27. Executing AST frontend in derive mode using pre-parsed AST for module `\dma_axi32_core0_ch_calc_joint'.
+Parameter 1 (\READ) = 0
+Generating RTLIL representation for module `$paramod\dma_axi32_core0_ch_calc_joint\READ=s32'00000000000000000000000000000000'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_joint.v:117.4-255.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 7
+
+51.28. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_min3'.
+Parameter 1 (\WIDTH) = 7
+Generating RTLIL representation for module `$paramod\prgen_min3\WIDTH=s32'00000000000000000000000000000111'.
+Parameter 1 (\WIDTH) = 8
+
+51.29. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_min2'.
+Parameter 1 (\WIDTH) = 8
+Generating RTLIL representation for module `$paramod\prgen_min2\WIDTH=s32'00000000000000000000000000001000'.
+Parameter 1 (\WIDTH) = 8
+Found cached RTLIL representation for module `$paramod\prgen_min2\WIDTH=s32'00000000000000000000000000001000'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 3
+
+51.30. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_min2'.
+Parameter 1 (\WIDTH) = 3
+Generating RTLIL representation for module `$paramod\prgen_min2\WIDTH=s32'00000000000000000000000000000011'.
+Parameter 1 (\WIDTH) = 3
+Found cached RTLIL representation for module `$paramod\prgen_min2\WIDTH=s32'00000000000000000000000000000011'.
+Parameter 1 (\WIDTH) = 3
+Found cached RTLIL representation for module `$paramod\prgen_min2\WIDTH=s32'00000000000000000000000000000011'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 2
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000010'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+
+51.31. Analyzing design hierarchy..
+Top module:  \dma_axi32
+Used module:     \dma_axi32_dual_core
+Used module:         $paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001
+Used module:         \dma_axi32_core0_top
+Used module:             \dma_axi32_core0
+Used module:                 \dma_axi32_core0_channels
+Used module:                     \dma_axi32_core0_ch_empty
+Used module:                     \dma_axi32_core0_ch
+Used module:                         \dma_axi32_core0_ch_fifo_ctrl
+Used module:                             \dma_axi32_core0_ch_fifo
+Used module:                             \dma_axi32_core0_ch_fifo_ptr
+Used module:                             \dma_axi32_core0_ch_rd_slicer
+Used module:                                 $paramod\prgen_min2\WIDTH=s32'00000000000000000000000000000011
+Used module:                                 $paramod\prgen_delay\DELAY=s32'00000000000000000000000000000010
+Used module:                             \dma_axi32_core0_ch_wr_slicer
+Used module:                                 \prgen_swap32
+Used module:                         \dma_axi32_core0_ch_periph_mux
+Used module:                         $paramod\dma_axi32_core0_ch_calc\READ=s32'00000000000000000000000000000000
+Used module:                             \dma_axi32_core0_ch_calc_size
+Used module:                                 $paramod\dma_axi32_core0_ch_calc_joint\READ=s32'00000000000000000000000000000000
+Used module:                                 $paramod\prgen_min3\WIDTH=s32'00000000000000000000000000000111
+Used module:                                     \prgen_min2
+Used module:                             \dma_axi32_core0_ch_calc_addr
+Used module:                             \prgen_delay
+Used module:                         $paramod\dma_axi32_core0_ch_calc\READ=s32'00000000000000000000000000000001
+Used module:                         \dma_axi32_core0_ch_outs
+Used module:                         \dma_axi32_core0_ch_remain
+Used module:                         \dma_axi32_core0_ch_offsets
+Used module:                         \dma_axi32_core0_ch_reg
+Used module:                             $paramod\prgen_rawstat\SIZE=s32'00000000000000000000000000001101
+Used module:                             \dma_axi32_core0_ch_reg_size
+Used module:                                 $paramod\prgen_min2\WIDTH=s32'00000000000000000000000000000111
+Used module:                     \dma_axi32_core0_channels_mux
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000111
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000100000
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000001
+Used module:                         $paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000110
+Used module:                         $paramod\prgen_or8\WIDTH=s32'00000000000000000000000000000001
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000011
+Used module:                         $paramod\prgen_or8\WIDTH=s32'00000000000000000000000000011111
+Used module:                         $paramod\prgen_or8\WIDTH=s32'00000000000000000000000000100000
+Used module:                     \dma_axi32_core0_channels_apb_mux
+Used module:                 \dma_axi32_core0_axim_rd
+Used module:                     $paramod\dma_axi32_core0_axim_resp\CMD_DEPTH=s32'00000000000000000000000000000010
+Used module:                         \prgen_fifo
+Used module:                     \dma_axi32_core0_axim_rdata
+Used module:                     \dma_axi32_core0_axim_cmd
+Used module:                         \dma_axi32_core0_axim_timeout
+Used module:                 \dma_axi32_core0_axim_wr
+Used module:                     \dma_axi32_core0_axim_wdata
+Used module:                         $paramod$ad8b4cd895cde9c619fca232cdaf8c654d1da422\prgen_fifo
+Used module:                         $paramod$9deb52a5178c44f1da22c9b03e1cda37deae9ff9\prgen_fifo
+Used module:                         $paramod$a9bf6ed044d5912b609be221a8d8e573242abfcc\prgen_fifo
+Used module:                         $paramod\prgen_joint_stall\SIZE_BITS=s32'00000000000000000000000000000011
+Used module:                             \prgen_stall
+Used module:                 \dma_axi32_core0_ctrl
+Used module:                 \dma_axi32_core0_arbiter
+Used module:                 \dma_axi32_core0_wdt
+Used module:         \dma_axi32_reg
+Used module:             \dma_axi32_reg_core0
+Used module:                 $paramod\prgen_scatter8_1\CH_NUM=s32'00000000000000000000000000000000
+Used module:         \dma_axi32_apb_mux
+Parameter 1 (\WIDTH) = 7
+Parameter 2 (\DEPTH_FULL) = 2
+
+51.32. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_fifo'.
+Parameter 1 (\WIDTH) = 7
+Parameter 2 (\DEPTH_FULL) = 2
+Generating RTLIL representation for module `$paramod$4f664a4cf497c043b517662ff4d450bee8b40576\prgen_fifo'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:136.4-140.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:142.4-146.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DEPTH) = 3
+Found cached RTLIL representation for module `$paramod\prgen_stall\DEPTH=s32'00000000000000000000000000000011'.
+Parameter 1 (\WIDTH) = 3
+Parameter 2 (\DEPTH_FULL) = 2
+
+51.33. Executing AST frontend in derive mode using pre-parsed AST for module `\prgen_fifo'.
+Parameter 1 (\WIDTH) = 3
+Parameter 2 (\DEPTH_FULL) = 2
+Generating RTLIL representation for module `$paramod$82ec1953f3f57ee587a75d6f6661f5845502a8be\prgen_fifo'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:136.4-140.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/prgen_fifo.v:142.4-146.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 2
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000010'.
+Parameter \READ = 0
+Found cached RTLIL representation for module `$paramod\dma_axi32_core0_ch_calc_size\READ=s32'00000000000000000000000000000000'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter \READ = 1
+
+51.34. Executing AST frontend in derive mode using pre-parsed AST for module `\dma_axi32_core0_ch_calc_size'.
+Parameter \READ = 1
+Generating RTLIL representation for module `$paramod\dma_axi32_core0_ch_calc_size\READ=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 7
+Found cached RTLIL representation for module `$paramod\prgen_min2\WIDTH=s32'00000000000000000000000000000111'.
+Parameter 1 (\WIDTH) = 7
+Found cached RTLIL representation for module `$paramod\prgen_min2\WIDTH=s32'00000000000000000000000000000111'.
+
+51.35. Analyzing design hierarchy..
+Top module:  \dma_axi32
+Used module:     \dma_axi32_dual_core
+Used module:         $paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001
+Used module:         \dma_axi32_core0_top
+Used module:             \dma_axi32_core0
+Used module:                 \dma_axi32_core0_channels
+Used module:                     \dma_axi32_core0_ch_empty
+Used module:                     \dma_axi32_core0_ch
+Used module:                         \dma_axi32_core0_ch_fifo_ctrl
+Used module:                             \dma_axi32_core0_ch_fifo
+Used module:                             \dma_axi32_core0_ch_fifo_ptr
+Used module:                             \dma_axi32_core0_ch_rd_slicer
+Used module:                                 $paramod\prgen_min2\WIDTH=s32'00000000000000000000000000000011
+Used module:                                 $paramod\prgen_delay\DELAY=s32'00000000000000000000000000000010
+Used module:                             \dma_axi32_core0_ch_wr_slicer
+Used module:                                 \prgen_swap32
+Used module:                         \dma_axi32_core0_ch_periph_mux
+Used module:                         $paramod\dma_axi32_core0_ch_calc\READ=s32'00000000000000000000000000000000
+Used module:                             $paramod\dma_axi32_core0_ch_calc_size\READ=s32'00000000000000000000000000000000
+Used module:                                 \dma_axi32_core0_ch_calc_joint
+Used module:                                 \prgen_delay
+Used module:                                 \prgen_min3
+Used module:                                     $paramod\prgen_min2\WIDTH=s32'00000000000000000000000000001000
+Used module:                             \dma_axi32_core0_ch_calc_addr
+Used module:                         $paramod\dma_axi32_core0_ch_calc\READ=s32'00000000000000000000000000000001
+Used module:                             $paramod\dma_axi32_core0_ch_calc_size\READ=s32'00000000000000000000000000000001
+Used module:                         \dma_axi32_core0_ch_outs
+Used module:                         \dma_axi32_core0_ch_remain
+Used module:                         \dma_axi32_core0_ch_offsets
+Used module:                         \dma_axi32_core0_ch_reg
+Used module:                             $paramod\prgen_rawstat\SIZE=s32'00000000000000000000000000001101
+Used module:                             \dma_axi32_core0_ch_reg_size
+Used module:                                 $paramod\prgen_min2\WIDTH=s32'00000000000000000000000000000111
+Used module:                     \dma_axi32_core0_channels_mux
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000111
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000100000
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000001
+Used module:                         $paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000110
+Used module:                         $paramod\prgen_or8\WIDTH=s32'00000000000000000000000000000001
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000011
+Used module:                         $paramod\prgen_or8\WIDTH=s32'00000000000000000000000000011111
+Used module:                         $paramod\prgen_or8\WIDTH=s32'00000000000000000000000000100000
+Used module:                     \dma_axi32_core0_channels_apb_mux
+Used module:                 \dma_axi32_core0_axim_rd
+Used module:                     $paramod\dma_axi32_core0_axim_resp\CMD_DEPTH=s32'00000000000000000000000000000010
+Used module:                         $paramod$4f664a4cf497c043b517662ff4d450bee8b40576\prgen_fifo
+Used module:                     \dma_axi32_core0_axim_rdata
+Used module:                     \dma_axi32_core0_axim_cmd
+Used module:                         \dma_axi32_core0_axim_timeout
+Used module:                 \dma_axi32_core0_axim_wr
+Used module:                     \dma_axi32_core0_axim_wdata
+Used module:                         $paramod$ad8b4cd895cde9c619fca232cdaf8c654d1da422\prgen_fifo
+Used module:                         $paramod$9deb52a5178c44f1da22c9b03e1cda37deae9ff9\prgen_fifo
+Used module:                         $paramod$a9bf6ed044d5912b609be221a8d8e573242abfcc\prgen_fifo
+Used module:                         $paramod\prgen_joint_stall\SIZE_BITS=s32'00000000000000000000000000000011
+Used module:                             $paramod\prgen_stall\DEPTH=s32'00000000000000000000000000000011
+Used module:                             $paramod$82ec1953f3f57ee587a75d6f6661f5845502a8be\prgen_fifo
+Used module:                 \dma_axi32_core0_ctrl
+Used module:                 \dma_axi32_core0_arbiter
+Used module:                 \dma_axi32_core0_wdt
+Used module:         \dma_axi32_reg
+Used module:             \dma_axi32_reg_core0
+Used module:                 $paramod\prgen_scatter8_1\CH_NUM=s32'00000000000000000000000000000000
+Used module:         \dma_axi32_apb_mux
+Parameter 1 (\READ) = 1
+
+51.36. Executing AST frontend in derive mode using pre-parsed AST for module `\dma_axi32_core0_ch_calc_joint'.
+Parameter 1 (\READ) = 1
+Generating RTLIL representation for module `$paramod\dma_axi32_core0_ch_calc_joint\READ=s32'00000000000000000000000000000001'.
+Note: Assuming pure combinatorial block at dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_joint.v:117.4-255.9 in
+compliance with IEC 62142(E):2005 / IEEE Std. 1364.1(E):2002. Recommending
+use of @* instead of @(...) for better match of synthesis and simulation.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 7
+Found cached RTLIL representation for module `$paramod\prgen_min3\WIDTH=s32'00000000000000000000000000000111'.
+Parameter 1 (\READ) = 0
+Found cached RTLIL representation for module `$paramod\dma_axi32_core0_ch_calc_joint\READ=s32'00000000000000000000000000000000'.
+Parameter 1 (\DELAY) = 1
+Found cached RTLIL representation for module `$paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001'.
+Parameter 1 (\WIDTH) = 7
+Found cached RTLIL representation for module `$paramod\prgen_min3\WIDTH=s32'00000000000000000000000000000111'.
+
+51.37. Analyzing design hierarchy..
+Top module:  \dma_axi32
+Used module:     \dma_axi32_dual_core
+Used module:         $paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001
+Used module:         \dma_axi32_core0_top
+Used module:             \dma_axi32_core0
+Used module:                 \dma_axi32_core0_channels
+Used module:                     \dma_axi32_core0_ch_empty
+Used module:                     \dma_axi32_core0_ch
+Used module:                         \dma_axi32_core0_ch_fifo_ctrl
+Used module:                             \dma_axi32_core0_ch_fifo
+Used module:                             \dma_axi32_core0_ch_fifo_ptr
+Used module:                             \dma_axi32_core0_ch_rd_slicer
+Used module:                                 $paramod\prgen_min2\WIDTH=s32'00000000000000000000000000000011
+Used module:                                 $paramod\prgen_delay\DELAY=s32'00000000000000000000000000000010
+Used module:                             \dma_axi32_core0_ch_wr_slicer
+Used module:                                 \prgen_swap32
+Used module:                         \dma_axi32_core0_ch_periph_mux
+Used module:                         $paramod\dma_axi32_core0_ch_calc\READ=s32'00000000000000000000000000000000
+Used module:                             $paramod\dma_axi32_core0_ch_calc_size\READ=s32'00000000000000000000000000000000
+Used module:                                 $paramod\dma_axi32_core0_ch_calc_joint\READ=s32'00000000000000000000000000000000
+Used module:                                 $paramod\prgen_min3\WIDTH=s32'00000000000000000000000000000111
+Used module:                                     $paramod\prgen_min2\WIDTH=s32'00000000000000000000000000000111
+Used module:                             \dma_axi32_core0_ch_calc_addr
+Used module:                         $paramod\dma_axi32_core0_ch_calc\READ=s32'00000000000000000000000000000001
+Used module:                             $paramod\dma_axi32_core0_ch_calc_size\READ=s32'00000000000000000000000000000001
+Used module:                                 $paramod\dma_axi32_core0_ch_calc_joint\READ=s32'00000000000000000000000000000001
+Used module:                         \dma_axi32_core0_ch_outs
+Used module:                         \dma_axi32_core0_ch_remain
+Used module:                         \dma_axi32_core0_ch_offsets
+Used module:                         \dma_axi32_core0_ch_reg
+Used module:                             $paramod\prgen_rawstat\SIZE=s32'00000000000000000000000000001101
+Used module:                             \dma_axi32_core0_ch_reg_size
+Used module:                     \dma_axi32_core0_channels_mux
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000111
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000100000
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000001
+Used module:                         $paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000110
+Used module:                         $paramod\prgen_or8\WIDTH=s32'00000000000000000000000000000001
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000011
+Used module:                         $paramod\prgen_or8\WIDTH=s32'00000000000000000000000000011111
+Used module:                         $paramod\prgen_or8\WIDTH=s32'00000000000000000000000000100000
+Used module:                     \dma_axi32_core0_channels_apb_mux
+Used module:                 \dma_axi32_core0_axim_rd
+Used module:                     $paramod\dma_axi32_core0_axim_resp\CMD_DEPTH=s32'00000000000000000000000000000010
+Used module:                         $paramod$4f664a4cf497c043b517662ff4d450bee8b40576\prgen_fifo
+Used module:                     \dma_axi32_core0_axim_rdata
+Used module:                     \dma_axi32_core0_axim_cmd
+Used module:                         \dma_axi32_core0_axim_timeout
+Used module:                 \dma_axi32_core0_axim_wr
+Used module:                     \dma_axi32_core0_axim_wdata
+Used module:                         $paramod$ad8b4cd895cde9c619fca232cdaf8c654d1da422\prgen_fifo
+Used module:                         $paramod$9deb52a5178c44f1da22c9b03e1cda37deae9ff9\prgen_fifo
+Used module:                         $paramod$a9bf6ed044d5912b609be221a8d8e573242abfcc\prgen_fifo
+Used module:                         $paramod\prgen_joint_stall\SIZE_BITS=s32'00000000000000000000000000000011
+Used module:                             $paramod\prgen_stall\DEPTH=s32'00000000000000000000000000000011
+Used module:                             $paramod$82ec1953f3f57ee587a75d6f6661f5845502a8be\prgen_fifo
+Used module:                 \dma_axi32_core0_ctrl
+Used module:                 \dma_axi32_core0_arbiter
+Used module:                 \dma_axi32_core0_wdt
+Used module:         \dma_axi32_reg
+Used module:             \dma_axi32_reg_core0
+Used module:                 $paramod\prgen_scatter8_1\CH_NUM=s32'00000000000000000000000000000000
+Used module:         \dma_axi32_apb_mux
+
+51.38. Analyzing design hierarchy..
+Top module:  \dma_axi32
+Used module:     \dma_axi32_dual_core
+Used module:         $paramod\prgen_delay\DELAY=s32'00000000000000000000000000000001
+Used module:         \dma_axi32_core0_top
+Used module:             \dma_axi32_core0
+Used module:                 \dma_axi32_core0_channels
+Used module:                     \dma_axi32_core0_ch_empty
+Used module:                     \dma_axi32_core0_ch
+Used module:                         \dma_axi32_core0_ch_fifo_ctrl
+Used module:                             \dma_axi32_core0_ch_fifo
+Used module:                             \dma_axi32_core0_ch_fifo_ptr
+Used module:                             \dma_axi32_core0_ch_rd_slicer
+Used module:                                 $paramod\prgen_min2\WIDTH=s32'00000000000000000000000000000011
+Used module:                                 $paramod\prgen_delay\DELAY=s32'00000000000000000000000000000010
+Used module:                             \dma_axi32_core0_ch_wr_slicer
+Used module:                                 \prgen_swap32
+Used module:                         \dma_axi32_core0_ch_periph_mux
+Used module:                         $paramod\dma_axi32_core0_ch_calc\READ=s32'00000000000000000000000000000000
+Used module:                             $paramod\dma_axi32_core0_ch_calc_size\READ=s32'00000000000000000000000000000000
+Used module:                                 $paramod\dma_axi32_core0_ch_calc_joint\READ=s32'00000000000000000000000000000000
+Used module:                                 $paramod\prgen_min3\WIDTH=s32'00000000000000000000000000000111
+Used module:                                     $paramod\prgen_min2\WIDTH=s32'00000000000000000000000000000111
+Used module:                             \dma_axi32_core0_ch_calc_addr
+Used module:                         $paramod\dma_axi32_core0_ch_calc\READ=s32'00000000000000000000000000000001
+Used module:                             $paramod\dma_axi32_core0_ch_calc_size\READ=s32'00000000000000000000000000000001
+Used module:                                 $paramod\dma_axi32_core0_ch_calc_joint\READ=s32'00000000000000000000000000000001
+Used module:                         \dma_axi32_core0_ch_outs
+Used module:                         \dma_axi32_core0_ch_remain
+Used module:                         \dma_axi32_core0_ch_offsets
+Used module:                         \dma_axi32_core0_ch_reg
+Used module:                             $paramod\prgen_rawstat\SIZE=s32'00000000000000000000000000001101
+Used module:                             \dma_axi32_core0_ch_reg_size
+Used module:                     \dma_axi32_core0_channels_mux
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000111
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000100000
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000001
+Used module:                         $paramod\prgen_demux8\WIDTH=s32'00000000000000000000000000000001
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000110
+Used module:                         $paramod\prgen_or8\WIDTH=s32'00000000000000000000000000000001
+Used module:                         $paramod\prgen_mux8\WIDTH=s32'00000000000000000000000000000011
+Used module:                         $paramod\prgen_or8\WIDTH=s32'00000000000000000000000000011111
+Used module:                         $paramod\prgen_or8\WIDTH=s32'00000000000000000000000000100000
+Used module:                     \dma_axi32_core0_channels_apb_mux
+Used module:                 \dma_axi32_core0_axim_rd
+Used module:                     $paramod\dma_axi32_core0_axim_resp\CMD_DEPTH=s32'00000000000000000000000000000010
+Used module:                         $paramod$4f664a4cf497c043b517662ff4d450bee8b40576\prgen_fifo
+Used module:                     \dma_axi32_core0_axim_rdata
+Used module:                     \dma_axi32_core0_axim_cmd
+Used module:                         \dma_axi32_core0_axim_timeout
+Used module:                 \dma_axi32_core0_axim_wr
+Used module:                     \dma_axi32_core0_axim_wdata
+Used module:                         $paramod$ad8b4cd895cde9c619fca232cdaf8c654d1da422\prgen_fifo
+Used module:                         $paramod$9deb52a5178c44f1da22c9b03e1cda37deae9ff9\prgen_fifo
+Used module:                         $paramod$a9bf6ed044d5912b609be221a8d8e573242abfcc\prgen_fifo
+Used module:                         $paramod\prgen_joint_stall\SIZE_BITS=s32'00000000000000000000000000000011
+Used module:                             $paramod\prgen_stall\DEPTH=s32'00000000000000000000000000000011
+Used module:                             $paramod$82ec1953f3f57ee587a75d6f6661f5845502a8be\prgen_fifo
+Used module:                 \dma_axi32_core0_ctrl
+Used module:                 \dma_axi32_core0_arbiter
+Used module:                 \dma_axi32_core0_wdt
+Used module:         \dma_axi32_reg
+Used module:             \dma_axi32_reg_core0
+Used module:                 $paramod\prgen_scatter8_1\CH_NUM=s32'00000000000000000000000000000000
+Used module:         \dma_axi32_apb_mux
+Removing unused module `$paramod\prgen_min2\WIDTH=s32'00000000000000000000000000001000'.
+Removing unused module `$paramod$ab4d786fe00c72328150f5a3b890c098838a15c5\prgen_fifo'.
+Removing unused module `$paramod$129dcf68dd96635e9a29d2021d0ea0d21766335c\prgen_fifo'.
+Removing unused module `\prgen_delay'.
+Removing unused module `\dma_axi32_core0_ch_calc_joint'.
+Removing unused module `\prgen_min2'.
+Removing unused module `\prgen_min3'.
+Removing unused module `\dma_axi32_core0_ch_calc_size'.
+Removing unused module `\dma_axi32_core0_ch_calc'.
+Removing unused module `\prgen_rawstat'.
+Removing unused module `\prgen_demux8'.
+Removing unused module `\prgen_mux8'.
+Removing unused module `\prgen_or8'.
+Removing unused module `\dma_axi32_core0_axim_resp'.
+Removing unused module `\prgen_stall'.
+Removing unused module `\prgen_fifo'.
+Removing unused module `\prgen_joint_stall'.
+Removing unused module `\prgen_scatter8_1'.
+Removed 18 unused modules.
+=== Step 3/5: High-Level Logic Optimization & FSM Extraction ===
+ERROR: TCL interpreter returned an error: wrong # args: should be "proc name args body"

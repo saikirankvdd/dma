@@ -1,0 +1,8 @@
+# Simulation artifacts
+sim/build/
+
+# Temporary / OS files
+*~
+*.swp
+*.swo
+.DS_Store

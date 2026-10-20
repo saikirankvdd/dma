@@ -1,0 +1,179 @@
+VCD info: dumpfile sim/waveforms/dma_axi32_stress.vcd opened for output.
+================================================================
+   PR200 AXI DMA (dma_axi32) EXTENDED STRESS TEST REGRESSION    
+================================================================
+[SETUP] Configuring Channel 0 Static Parameters...
+
+--------------------------------------------------------------
+[TEST START] EST 1: 32-Byte Burst (8 Words)
+  Src=0x00000100 -> Dst=0x00000200 | Size=32 Bytes (8 Words)
+--------------------------------------------------------------
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000100 Len=3
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000110 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000200 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000210 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000200
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000210
+  [RESULT] PASSED: All 8 words transferred accurately!
+
+--------------------------------------------------------------
+[TEST START] ST 2: 64-Byte Burst (16 Words)
+  Src=0x00000300 -> Dst=0x00000400 | Size=64 Bytes (16 Words)
+--------------------------------------------------------------
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000300 Len=3
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000310 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000400 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000410 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000400
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000320 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000410
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000330 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000420 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000430 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000420
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000430
+  [RESULT] PASSED: All 16 words transferred accurately!
+
+--------------------------------------------------------------
+[TEST START] T 3: 128-Byte Large (32 Words)
+  Src=0x00000500 -> Dst=0x00000600 | Size=128 Bytes (32 Words)
+--------------------------------------------------------------
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000500 Len=3
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000510 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000600 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000610 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000600
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000520 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000610
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000530 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000620 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000630 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000620
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000540 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000630
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000550 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000640 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000650 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000640
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000560 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000650
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000570 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000660 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000670 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000660
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000670
+  [RESULT] PASSED: All 32 words transferred accurately!
+
+--------------------------------------------------------------
+[TEST START] T 4: 256-Byte Heavy (64 Words)
+  Src=0x00000700 -> Dst=0x00000900 | Size=256 Bytes (64 Words)
+--------------------------------------------------------------
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000700 Len=3
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000710 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000900 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000910 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000900
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000720 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000910
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000730 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000920 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000930 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000920
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000740 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000930
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000750 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000940 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000950 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000940
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000760 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000950
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000770 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000960 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000970 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000960
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000780 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000970
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000790 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000980 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000990 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000980
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x000007a0 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000990
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x000007b0 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x000009a0 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x000009b0 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x000009a0
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x000007c0 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x000009b0
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x000007d0 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x000009c0 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x000009d0 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x000009c0
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x000007e0 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x000009d0
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x000007f0 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x000009e0 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x000009f0 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x000009e0
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x000009f0
+  [RESULT] PASSED: All 64 words transferred accurately!
+
+>>> ACTIVATING AXI BACKPRESSURE (Simulating Slow/Stalling Memory) <<<
+
+--------------------------------------------------------------
+[TEST START] TEST 5: Backpressure Stalls
+  Src=0x00000b00 -> Dst=0x00000d00 | Size=128 Bytes (32 Words)
+--------------------------------------------------------------
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000b00 Len=3
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000b10 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000d00 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000d10 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000d00
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000b20 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000d10
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000b30 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000d20 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000d30 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000d20
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000b40 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000d30
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000b50 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000d40 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000d40
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000d50 Len=3
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000b60 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000d50
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00000b70 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000d60 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00000d70 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000d60
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00000d70
+  [RESULT] PASSED: All 32 words transferred accurately!
+
+--------------------------------------------------------------
+[TEST START]  6: Rapid Consecutive Transfer
+  Src=0x00001000 -> Dst=0x00001200 | Size=64 Bytes (16 Words)
+--------------------------------------------------------------
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00001000 Len=3
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00001010 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00001200 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00001210 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00001200
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00001020 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00001210
+[AXI-SLAVE] >>> AR Burst Accepted: Addr=0x00001030 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00001220 Len=3
+[AXI-SLAVE] >>> AW Burst Queued: Addr=0x00001230 Len=3
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00001220
+[AXI-SLAVE]   WDATA LAST received for burst Addr=0x00001230
+  [RESULT] PASSED: All 16 words transferred accurately!
+
+================================================================
+                 EXTENDED STRESS TEST REPORT                     
+================================================================
+  Total Tests Executed    : 6 Comprehensive Scenarios           
+  Total Words Tested      : 168 Words (672 Bytes)               
+  Total Mismatches/Errors : 0                                 
+  STATUS                  : >>> 100% PASSED (ZERO DEFECTS) <<< 
+================================================================
+tb/tb_dma_axi32_stress.v:441: $finish called at 15650000 (1ps)

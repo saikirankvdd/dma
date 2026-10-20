@@ -1,0 +1,101 @@
+dma_axi/src/dma_axi32/dma_axi32.v:39: warning: timescale for dma_axi32 inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32.v:103: warning: implicit definition of wire 'M0_AWID'.
+dma_axi/src/dma_axi32/dma_axi32.v:104: warning: implicit definition of wire 'M0_WID'.
+dma_axi/src/dma_axi32/dma_axi32.v:105: warning: implicit definition of wire 'M0_ARID'.
+dma_axi/src/dma_axi32/dma_axi32_dual_core.v:39: warning: timescale for dma_axi32_dual_core inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_apb_mux.v:39: warning: timescale for dma_axi32_apb_mux inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_reg.v:39: warning: timescale for dma_axi32_reg inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_reg_core0.v:39: warning: timescale for dma_axi32_reg_core0 inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/prgen_scatter8_1.v:39: warning: timescale for prgen_scatter8_1 inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_top.v:39: warning: timescale for dma_axi32_core0_top inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0.v:39: warning: timescale for dma_axi32_core0 inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_wdt.v:39: warning: timescale for dma_axi32_core0_wdt inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_arbiter.v:39: warning: timescale for dma_axi32_core0_arbiter inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ctrl.v:39: warning: timescale for dma_axi32_core0_ctrl inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_axim_wr.v:39: warning: timescale for dma_axi32_core0_axim_wr inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_axim_cmd.v:39: warning: timescale for dma_axi32_core0_axim_cmd inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_axim_timeout.v:39: warning: timescale for dma_axi32_core0_axim_timeout inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_axim_wdata.v:39: warning: timescale for dma_axi32_core0_axim_wdata inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/prgen_joint_stall.v:39: warning: timescale for prgen_joint_stall inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/prgen_fifo.v:39: warning: timescale for prgen_fifo inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/prgen_stall.v:39: warning: timescale for prgen_stall inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_axim_resp.v:39: warning: timescale for dma_axi32_core0_axim_resp inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_axim_rd.v:39: warning: timescale for dma_axi32_core0_axim_rd inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_axim_rdata.v:39: warning: timescale for dma_axi32_core0_axim_rdata inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_channels.v:39: warning: timescale for dma_axi32_core0_channels inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_channels_apb_mux.v:39: warning: timescale for dma_axi32_core0_channels_apb_mux inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_channels_mux.v:39: warning: timescale for dma_axi32_core0_channels_mux inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/prgen_or8.v:39: warning: timescale for prgen_or8 inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/prgen_mux8.v:40: warning: timescale for prgen_mux8 inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/prgen_demux8.v:40: warning: timescale for prgen_demux8 inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch.v:40: warning: timescale for dma_axi32_core0_ch inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_reg.v:40: warning: timescale for dma_axi32_core0_ch_reg inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_reg_size.v:39: warning: timescale for dma_axi32_core0_ch_reg_size inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/prgen_rawstat.v:39: warning: timescale for prgen_rawstat inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_offsets.v:39: warning: timescale for dma_axi32_core0_ch_offsets inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_remain.v:39: warning: timescale for dma_axi32_core0_ch_remain inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_outs.v:39: warning: timescale for dma_axi32_core0_ch_outs inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc.v:39: warning: timescale for dma_axi32_core0_ch_calc inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_addr.v:39: warning: timescale for dma_axi32_core0_ch_calc_addr inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_size.v:39: warning: timescale for dma_axi32_core0_ch_calc_size inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/prgen_min3.v:39: warning: timescale for prgen_min3 inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/prgen_min2.v:39: warning: timescale for prgen_min2 inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_calc_joint.v:39: warning: timescale for dma_axi32_core0_ch_calc_joint inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_periph_mux.v:40: warning: timescale for dma_axi32_core0_ch_periph_mux inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_fifo_ctrl.v:39: warning: timescale for dma_axi32_core0_ch_fifo_ctrl inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_wr_slicer.v:39: warning: timescale for dma_axi32_core0_ch_wr_slicer inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/prgen_swap_32.v:39: warning: timescale for prgen_swap32 inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_rd_slicer.v:40: warning: timescale for dma_axi32_core0_ch_rd_slicer inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_fifo_ptr.v:39: warning: timescale for dma_axi32_core0_ch_fifo_ptr inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_fifo.v:39: warning: timescale for dma_axi32_core0_ch_fifo inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/dma_axi32_core0_ch_empty.v:40: warning: timescale for dma_axi32_core0_ch_empty inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.
+dma_axi/src/dma_axi32/prgen_delay.v:39: warning: timescale for prgen_delay inherited from another file.
+tb/tb_dma_axi32.v:1: ...: The inherited timescale is here.

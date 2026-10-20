@@ -1,0 +1,48 @@
+VCD info: dumpfile sim/waveforms/dma_axi32.vcd opened for output.
+==========================================================
+   PR200 AXI DMA (dma_axi32) Functional Verification      
+==========================================================
+[TB] Step 1: Configuring Channel 0 Static Parameters...
+[TB] Step 2: Configuring Command Line Registers (32 Bytes)...
+[TB] Step 3: Verifying APB Register Read-Back...
+  [REG READ] CMD_LINE0 (Src Addr): 0x00000100 (Expected: 0x00000100)
+  [REG READ] CMD_LINE1 (Dst Addr): 0x00000200 (Expected: 0x00000200)
+  [REG READ] CMD_LINE2 (Size):     0x00000020 (Expected: 0x00000020)
+[TB] Step 4: Enabling and Starting Channel 0...
+[TB] Step 5: Waiting for DMA Transfer Completion...
+[AXI-MEM] >>> AR Burst Accepted: Addr=0x00000100 Len=3
+[AXI-MEM]   RDATA beat 0: Data=0xcafe0000
+[AXI-MEM]   RDATA beat 1: Data=0xcafe0001
+[AXI-MEM]   RDATA beat 2: Data=0xcafe0002
+[AXI-MEM]   RDATA beat 3: Data=0xcafe0003
+[AXI-MEM] >>> AR Burst Accepted: Addr=0x00000110 Len=3
+[AXI-MEM]   RDATA beat 0: Data=0xcafe0004
+[AXI-MEM]   RDATA beat 1: Data=0xcafe0005
+[AXI-MEM]   RDATA beat 2: Data=0xcafe0006
+[AXI-MEM]   RDATA beat 3: Data=0xcafe0007
+[AXI-MEM] >>> AW Burst Queued: Addr=0x00000200 Len=3
+[AXI-MEM] >>> AW Burst Queued: Addr=0x00000210 Len=3
+[AXI-MEM]   WDATA written to 0x00000200: Data=0xcafe0000
+[AXI-MEM]   WDATA written to 0x00000204: Data=0xcafe0001
+[AXI-MEM]   WDATA written to 0x00000208: Data=0xcafe0002
+[AXI-MEM]   WDATA written to 0x0000020c: Data=0xcafe0003
+[AXI-MEM]   WDATA LAST received for burst Addr=0x00000200
+[AXI-MEM]   WDATA written to 0x00000210: Data=0xcafe0004
+[AXI-MEM]   WDATA written to 0x00000214: Data=0xcafe0005
+[AXI-MEM]   WDATA written to 0x00000218: Data=0xcafe0006
+[AXI-MEM]   WDATA written to 0x0000021c: Data=0xcafe0007
+[AXI-MEM]   WDATA LAST received for burst Addr=0x00000210
+[TB] Step 6: Verifying Destination Memory Contents (0x200..0x21C)...
+  [MATCH] Word 0 at 0x00000200: Actual=0xcafe0000 Expected=0xcafe0000
+  [MATCH] Word 1 at 0x00000204: Actual=0xcafe0001 Expected=0xcafe0001
+  [MATCH] Word 2 at 0x00000208: Actual=0xcafe0002 Expected=0xcafe0002
+  [MATCH] Word 3 at 0x0000020c: Actual=0xcafe0003 Expected=0xcafe0003
+  [MATCH] Word 4 at 0x00000210: Actual=0xcafe0004 Expected=0xcafe0004
+  [MATCH] Word 5 at 0x00000214: Actual=0xcafe0005 Expected=0xcafe0005
+  [MATCH] Word 6 at 0x00000218: Actual=0xcafe0006 Expected=0xcafe0006
+  [MATCH] Word 7 at 0x0000021c: Actual=0xcafe0007 Expected=0xcafe0007
+==========================================================
+   TESTBENCH COMPLETED — Waveform saved to:               
+   sim/waveforms/dma_axi32.vcd                            
+==========================================================
+tb/tb_dma_axi32.v:318: $finish called at 1155000 (1ps)

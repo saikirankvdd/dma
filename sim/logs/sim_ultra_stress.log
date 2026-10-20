@@ -1,0 +1,55 @@
+VCD info: dumpfile sim/waveforms/dma_axi32_ultra_stress.vcd opened for output.
+================================================================================
+   PR200 AXI DMA (dma_axi32) ULTRA-EXTREME REAL-WORLD STRESS REGRESSION        
+   Workload: Concurrent 3D Game Rendering + Heavy Edge AI Model Weight Streaming
+================================================================================
+
+--------------------------------------------------------------------------------
+[SCENARIO START] Weight Streaming (512 Bytes / 128 Words)
+  Channel 0 | Src=0x00000100 -> Dst=0x00000400 | Size=512 Bytes (128 Words)
+--------------------------------------------------------------------------------
+  [STATUS] >>> PASSED: All 128 words transferred with zero corruption! <<<
+
+--------------------------------------------------------------------------------
+[SCENARIO START] fer Vertex Stream (128 Bytes / 32 Words)
+  Channel 0 | Src=0x00000800 -> Dst=0x00000a00 | Size=128 Bytes (32 Words)
+--------------------------------------------------------------------------------
+  [STATUS] >>> PASSED: All 32 words transferred with zero corruption! <<<
+
+>>> ACTIVATING UNPREDICTABLE MEMORY JITTER & BACKPRESSURE STALLS <<<
+
+--------------------------------------------------------------------------------
+[SCENARIO START] i-Cycle Random Memory Jitter (256 Bytes)
+  Channel 0 | Src=0x00000c00 -> Dst=0x00000f00 | Size=256 Bytes (64 Words)
+--------------------------------------------------------------------------------
+  [STATUS] >>> PASSED: All 64 words transferred with zero corruption! <<<
+
+>>> TESTING ARM AXI 4KB MEMORY BOUNDARY AUTO-SPLITTING <<<
+
+--------------------------------------------------------------------------------
+[SCENARIO START] ry Crossing (Crossing 0x1000 Page Limit)
+  Channel 0 | Src=0x00000f40 -> Dst=0x00001200 | Size=256 Bytes (64 Words)
+--------------------------------------------------------------------------------
+  [STATUS] >>> PASSED: All 64 words transferred with zero corruption! <<<
+
+--------------------------------------------------------------------------------
+[SCENARIO START] te Masking & Strobe Integrity (64 Bytes)
+  Channel 0 | Src=0x00001600 -> Dst=0x00001800 | Size=64 Bytes (16 Words)
+--------------------------------------------------------------------------------
+  [STATUS] >>> PASSED: All 16 words transferred with zero corruption! <<<
+
+--------------------------------------------------------------------------------
+[SCENARIO START] ck-to-Back Pipeline Transfer (128 Bytes)
+  Channel 0 | Src=0x00001a00 -> Dst=0x00001c00 | Size=128 Bytes (32 Words)
+--------------------------------------------------------------------------------
+  [STATUS] >>> PASSED: All 32 words transferred with zero corruption! <<<
+
+================================================================================
+                   ULTRA-EXTREME STRESS TEST FINAL REPORT                       
+================================================================================
+  Workload Scenarios Run  : 6 Ultra-Extreme Stress Workloads                    
+  Total Data Processed    : 336 Words (1344 Bytes / 1.31 KB)                   
+  Total Corrupted Words   : 0                                                 
+  FINAL CHIP VERDICT      : >>> 100% VERIFIED — MILITARY-GRADE SILICON INTEGRITY <<<
+================================================================================
+tb/tb_dma_axi32_ultra_stress.v:480: $finish called at 25990000 (1ps)

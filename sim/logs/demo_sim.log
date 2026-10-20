@@ -1,0 +1,4 @@
+PASS: DMA copied 8 words (32 bytes) from byte address 0 to byte address 64.
+PASS: All destination words match the source data.
+RESULT: FUNCTIONAL TEST PASSED
+tb/tb_dma_demo.v:83: $finish called at 210000 (1ps)

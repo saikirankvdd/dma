@@ -1,0 +1,1191 @@
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[10\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[2\]
+	bbox = (311.9050, 297.8950) - (312.0400, 298.1250) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[2\]
+	bbox = (308.2450, 300.1800) - (308.2700, 300.2500) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[2\]
+	bbox = (308.2450, 300.1800) - (308.2700, 300.2600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[2\]
+	bbox = (308.2450, 300.2500) - (308.3600, 300.3550) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[2\]
+	bbox = (308.2450, 300.2600) - (308.3600, 300.3550) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[2\]
+	bbox = (308.4350, 300.1200) - (308.7250, 300.1700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[2\]
+	bbox = (308.3600, 300.1200) - (308.7250, 300.1700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[2\]
+	bbox = (308.2700, 300.1200) - (308.7250, 300.1700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[2\]
+	bbox = (308.2450, 300.1200) - (308.2700, 300.2500) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[10\]
+	bbox = (313.2500, 297.6000) - (313.3300, 297.8000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[10\]
+	bbox = (313.2500, 297.6100) - (313.3300, 297.8000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[10\]
+	bbox = (313.2700, 297.6000) - (313.3300, 297.7500) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[10\]
+	bbox = (313.2700, 297.6100) - (313.3300, 297.7500) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[10\]
+	bbox = (313.3250, 297.8000) - (313.3300, 297.8950) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[10\]
+	bbox = (313.1000, 297.6000) - (313.1300, 297.7400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[10\]
+	bbox = (313.1000, 297.6000) - (313.1300, 297.7500) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[18\]
+	bbox = (312.3850, 300.3250) - (312.4550, 300.4800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (313.5850, 298.2300) - (313.8700, 298.2800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (316.9500, 300.5600) - (317.1650, 300.6600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06447_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[23\]
+	bbox = (306.8650, 205.4400) - (306.9800, 205.5450) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[31\]
+	bbox = (304.2200, 205.6700) - (304.2850, 205.8000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[31\]
+	bbox = (303.9950, 205.6700) - (304.2850, 205.8000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06448_
+	bbox = (304.8250, 218.5200) - (305.0500, 218.5700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[14\]
+	bbox = (304.7200, 218.7750) - (304.8250, 218.8000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[14\]
+	bbox = (303.5300, 216.1400) - (303.7550, 216.2400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06447_
+	bbox = (308.0500, 207.6400) - (308.1900, 207.6900) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06447_
+	bbox = (308.0500, 207.6400) - (308.2700, 207.6900) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[6\]
+	bbox = (304.0850, 213.2350) - (304.1300, 213.4650) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[6\]
+	bbox = (304.0100, 213.2350) - (304.1300, 213.4800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04530_
+	bbox = (188.9000, 357.7350) - (188.9150, 357.9200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04517_
+	bbox = (204.8100, 333.1950) - (205.0000, 333.3000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:VPWR net:_04517_
+	bbox = (196.2600, 339.7300) - (196.2700, 339.8150) on Layer met2
+violation type: Metal Spacing
+	srcs: net:net84
+	bbox = (322.5750, 47.5900) - (322.7600, 47.6550) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04070_
+	bbox = (322.0050, 47.9950) - (322.2950, 48.0400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04070_
+	bbox = (322.1600, 47.9950) - (322.2950, 48.0400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04070_
+	bbox = (321.7000, 47.9500) - (322.2950, 48.0400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04070_
+	bbox = (322.1600, 47.9500) - (322.2950, 48.0400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:VGND net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_axim_wr.dma_axi32_axim_wdata.data_fifo.fifo\[4\]\[1\]
+	bbox = (320.2100, 48.6900) - (320.3200, 48.7750) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[8\]
+	bbox = (306.9800, 278.7000) - (307.1800, 278.8100) on Layer met2
+violation type: Metal Spacing
+	srcs: net:_04544_ net:net264
+	bbox = (186.2150, 338.3550) - (186.2300, 338.3700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04544_ net:net264
+	bbox = (186.2150, 338.3700) - (186.2300, 338.4050) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[10\]
+	bbox = (341.2500, 349.1300) - (341.3300, 349.1400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[10\]
+	bbox = (341.2500, 349.1300) - (341.2550, 349.1400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[10\]
+	bbox = (341.2500, 349.0800) - (341.2550, 349.1300) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_
+	bbox = (340.8500, 348.9400) - (340.9300, 349.1400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[28\]
+	bbox = (356.8000, 376.4100) - (356.8950, 376.5150) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[28\]
+	bbox = (356.8000, 376.4900) - (356.8950, 376.5150) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_
+	bbox = (359.9900, 376.2800) - (360.1300, 376.3300) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_
+	bbox = (359.9900, 376.2800) - (360.1450, 376.3300) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_
+	bbox = (400.5150, 376.2800) - (400.7200, 376.3300) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[27\]
+	bbox = (373.2150, 374.0000) - (373.2200, 374.1900) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[27\]
+	bbox = (373.2150, 373.9000) - (373.2200, 374.0000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04834_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.dma_axi32_core0_ch_reg_size_rd.burst_max_size_reg\[5\]
+	bbox = (126.7500, 243.6500) - (126.8350, 243.6700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04834_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.dma_axi32_core0_ch_reg_size_rd.burst_max_size_reg\[5\]
+	bbox = (126.7050, 243.6000) - (126.8350, 243.6700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.dma_axi32_core0_ch_reg_size_rd.burst_max_size_reg\[5\]
+	bbox = (126.7550, 243.3400) - (126.9750, 243.4400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04834_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.dma_axi32_core0_ch_reg_size_rd.burst_max_size_reg\[5\]
+	bbox = (126.7500, 243.6500) - (126.7550, 243.6700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04834_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.dma_axi32_core0_ch_reg_size_rd.burst_max_size_reg\[5\]
+	bbox = (126.7050, 243.6000) - (126.7550, 243.6700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04716_ net:_04886_
+	bbox = (125.4350, 240.2800) - (125.7250, 240.4100) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04716_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.cmd_counter\[4\]
+	bbox = (124.9150, 240.2800) - (125.2050, 240.3300) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04834_
+	bbox = (130.1200, 243.4800) - (130.2500, 243.6750) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04834_
+	bbox = (130.1200, 243.4800) - (130.2500, 243.6800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04929_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.cmd_counter\[4\]
+	bbox = (124.8600, 240.4800) - (124.9900, 240.5600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04929_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.cmd_counter\[4\]
+	bbox = (124.8600, 240.4800) - (124.9150, 240.5600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04929_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.cmd_counter\[4\]
+	bbox = (124.8050, 240.4350) - (124.9150, 240.5600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04929_ net:_05036_
+	bbox = (124.2600, 268.0200) - (124.3600, 268.5000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04929_ net:_05036_
+	bbox = (124.2600, 268.3600) - (124.3600, 268.5000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04954_
+	bbox = (126.8900, 246.5400) - (126.9350, 246.7400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04935_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_outs_rd.outs\[0\]
+	bbox = (123.8100, 267.6350) - (123.9350, 267.8650) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04935_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_outs_rd.outs\[0\]
+	bbox = (123.8850, 267.6350) - (123.9350, 267.8650) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_05032_ net:_05036_
+	bbox = (125.6450, 267.4800) - (125.7400, 267.5300) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_05036_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_outs_rd.outs\[0\]
+	bbox = (124.2250, 267.6500) - (124.3600, 267.7900) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_05036_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_outs_rd.outs\[0\]
+	bbox = (124.2250, 267.6350) - (124.3600, 267.8650) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_05032_ net:_05036_
+	bbox = (125.3550, 267.4800) - (125.6450, 267.5300) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.dma_axi32_core0_ch_reg_size_rd.burst_max_size_other\[6\]
+	bbox = (124.5000, 227.5550) - (124.5400, 227.6300) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.dma_axi32_core0_ch_reg_size_rd.burst_max_size_other\[6\]
+	bbox = (124.5400, 227.5550) - (124.7400, 227.6300) on Layer met2
+violation type: Metal Spacing
+	srcs: net:_04833_
+	bbox = (125.7400, 227.7700) - (125.9400, 227.8100) on Layer met2
+violation type: Metal Spacing
+	srcs: net:_04716_ net:_04834_
+	bbox = (130.3400, 243.3400) - (130.4800, 243.4500) on Layer met2
+violation type: Metal Spacing
+	srcs: net:_04716_ net:_04834_
+	bbox = (130.2800, 243.3400) - (130.4800, 243.4500) on Layer met2
+violation type: Metal Spacing
+	srcs: net:_06447_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[8\]
+	bbox = (308.2650, 276.2400) - (308.2700, 276.3800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06447_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[8\]
+	bbox = (308.1500, 276.1200) - (308.2700, 276.3800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06447_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[8\]
+	bbox = (308.1500, 276.1600) - (308.2700, 276.3800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[28\]
+	bbox = (303.1300, 238.2300) - (303.2850, 238.2700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[28\]
+	bbox = (303.1300, 238.2300) - (303.2100, 238.2700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[28\]
+	bbox = (303.1300, 238.2300) - (303.2700, 238.2700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06448_
+	bbox = (297.5350, 246.1050) - (297.7700, 246.2000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06448_
+	bbox = (297.5350, 246.1050) - (297.6600, 246.2000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06447_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[18\]
+	bbox = (294.6650, 276.1400) - (294.7950, 276.2800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06447_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[18\]
+	bbox = (294.6650, 276.1400) - (294.7950, 276.3200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06447_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[18\]
+	bbox = (294.6650, 276.1350) - (294.7950, 276.3650) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06447_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[18\]
+	bbox = (294.6650, 276.1800) - (294.7950, 276.2800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06447_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[18\]
+	bbox = (294.6650, 276.1800) - (294.7950, 276.3200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06447_
+	bbox = (307.9750, 276.4700) - (308.1500, 276.5200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06446_
+	bbox = (309.0600, 276.3900) - (309.2650, 276.4600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06446_
+	bbox = (309.1900, 276.3900) - (309.2650, 276.4600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06446_
+	bbox = (309.0600, 276.3900) - (309.2650, 276.5200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06446_
+	bbox = (291.7100, 276.3900) - (291.9150, 276.5200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06446_
+	bbox = (291.7000, 276.3900) - (291.9150, 276.5200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[27\]
+	bbox = (308.9750, 265.5900) - (309.1900, 265.6400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[16\]
+	bbox = (306.8450, 276.0700) - (306.8900, 276.1350) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[16\]
+	bbox = (306.6300, 276.0700) - (306.8450, 276.1350) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[16\]
+	bbox = (306.6300, 276.0400) - (306.8450, 276.1350) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[26\]
+	bbox = (322.1600, 325.2250) - (322.2550, 325.2450) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[26\]
+	bbox = (322.1450, 325.2000) - (322.2350, 325.3250) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[26\]
+	bbox = (322.1450, 325.2450) - (322.1600, 325.3250) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02758_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[26\]
+	bbox = (323.4800, 324.9400) - (323.5800, 325.0500) on Layer met2
+violation type: Metal Spacing
+	srcs: net:_02758_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[26\]
+	bbox = (323.4800, 324.9400) - (323.7400, 325.0500) on Layer met2
+violation type: Metal Spacing
+	srcs: net:_03854_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.DOUT\[5\]
+	bbox = (382.0050, 150.7200) - (382.0550, 151.1900) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_03854_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.DOUT\[5\]
+	bbox = (382.0050, 150.9600) - (382.0550, 151.1900) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_03854_
+	bbox = (381.7150, 150.8600) - (382.1000, 150.9600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_03854_
+	bbox = (381.7150, 150.8600) - (382.0050, 150.9600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.DOUT\[5\]
+	bbox = (385.1050, 146.1450) - (385.3950, 146.2400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_
+	bbox = (394.2900, 335.8800) - (394.3650, 336.0000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[7\]\[18\]
+	bbox = (397.4850, 338.3550) - (397.6000, 338.4900) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[30\]
+	bbox = (406.3250, 360.1700) - (406.4150, 360.3450) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[30\]
+	bbox = (406.3250, 360.2150) - (406.4150, 360.3450) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06042_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_calc_rd.dma_axi32_ch_calc_size.dma_axi32_core0_ch_calc_joint.joint_ready_in
+	bbox = (41.3550, 300.2750) - (41.4850, 300.3350) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06042_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_calc_rd.dma_axi32_ch_calc_size.dma_axi32_core0_ch_calc_joint.joint_ready_in
+	bbox = (41.4700, 300.3200) - (41.4850, 300.3350) on Layer met1
+violation type: Metal Spacing
+	srcs: net:net299
+	bbox = (161.8500, 401.2850) - (161.9600, 401.5000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06733_
+	bbox = (233.2200, 91.1250) - (233.2850, 91.3200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06733_
+	bbox = (233.2850, 91.0200) - (233.5750, 91.1250) on Layer met1
+violation type: Metal Spacing
+	srcs: net:ARADDR0\[23\]
+	bbox = (234.6850, 91.4050) - (234.9750, 91.5000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04834_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_calc_wr.dma_axi32_ch_calc_addr.start_addr\[15\]
+	bbox = (258.5100, 183.8850) - (258.5900, 183.9800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04833_ net:_04834_
+	bbox = (259.4700, 183.6800) - (259.6000, 184.1800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04833_ net:_04834_
+	bbox = (259.5850, 183.6800) - (259.6000, 183.9100) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04834_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_calc_wr.dma_axi32_ch_calc_addr.start_addr\[15\]
+	bbox = (258.5850, 183.8850) - (258.5900, 183.9800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04834_
+	bbox = (262.5050, 183.9900) - (262.6500, 184.0400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04833_ net:_04834_
+	bbox = (259.4700, 184.0400) - (259.6000, 184.1800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04833_ net:_04834_
+	bbox = (259.5850, 183.9100) - (259.6000, 184.0400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:net109
+	bbox = (337.6550, 210.5600) - (337.7100, 210.7600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:net109
+	bbox = (337.7100, 210.7600) - (337.7300, 210.8500) on Layer met1
+violation type: Metal Spacing
+	srcs: net:net109
+	bbox = (335.8900, 224.1350) - (335.9600, 224.3450) on Layer met1
+violation type: Metal Spacing
+	srcs: net:net109
+	bbox = (335.8700, 224.3450) - (335.8900, 224.4400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:net109
+	bbox = (335.8900, 224.1350) - (335.9600, 224.3000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_
+	bbox = (348.6000, 188.9400) - (348.8300, 189.0750) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[3\]
+	bbox = (349.0200, 189.2000) - (349.0750, 189.2800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[3\]
+	bbox = (349.0200, 189.2450) - (349.0750, 189.2800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[0\]
+	bbox = (371.5200, 189.2450) - (371.6150, 189.3500) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[0\]
+	bbox = (371.5200, 189.2450) - (371.6150, 189.2800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[3\]
+	bbox = (344.8400, 191.4750) - (344.8550, 191.5550) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[3\]
+	bbox = (344.8400, 191.5200) - (344.8550, 191.5550) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[3\]
+	bbox = (344.7450, 191.4750) - (344.8550, 191.6000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[3\]
+	bbox = (344.7450, 191.5200) - (344.8550, 191.6000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[31\]
+	bbox = (352.6550, 224.3450) - (352.7500, 224.4400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[31\]
+	bbox = (352.6550, 224.3450) - (352.8100, 224.4400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06347_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[31\]
+	bbox = (352.4300, 224.3450) - (352.5050, 224.4400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_
+	bbox = (350.3600, 224.4000) - (350.3650, 224.5000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_
+	bbox = (350.3650, 224.4000) - (350.5900, 224.5000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (350.6550, 224.1700) - (350.7750, 224.3450) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.8150, 223.9600) - (354.8200, 224.0100) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.5900, 223.9600) - (354.8150, 224.0100) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[0\]
+	bbox = (371.6100, 189.0000) - (371.6150, 189.1200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[23\]
+	bbox = (432.5450, 281.6100) - (432.5750, 281.7500) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[23\]
+	bbox = (432.5450, 281.6450) - (432.5750, 281.7500) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_
+	bbox = (430.5700, 295.5000) - (430.6300, 295.7000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_
+	bbox = (432.7000, 281.6200) - (432.7900, 281.8400) on Layer met2
+violation type: Metal Spacing
+	srcs: net:_04722_
+	bbox = (130.9400, 267.6900) - (131.0300, 267.8200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04722_
+	bbox = (130.9400, 267.6900) - (131.0300, 267.8300) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04722_
+	bbox = (130.9400, 267.6900) - (131.0300, 267.8750) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04722_ net:_05031_
+	bbox = (131.1700, 267.6900) - (131.2600, 267.8650) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04722_ net:_05031_
+	bbox = (131.1700, 267.6900) - (131.1850, 267.8650) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04722_ net:_05031_
+	bbox = (131.1700, 267.7350) - (131.2600, 267.8650) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04722_ net:_05031_
+	bbox = (131.1700, 267.7350) - (131.1850, 267.8650) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04929_
+	bbox = (131.1700, 243.4950) - (131.1850, 243.6800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04929_
+	bbox = (131.1700, 243.4950) - (131.2600, 243.6800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04832_
+	bbox = (151.2150, 265.1000) - (151.4050, 265.2000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04832_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.int_enable\[9\]
+	bbox = (151.4050, 265.4300) - (151.5000, 265.4700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04832_
+	bbox = (167.4550, 265.2850) - (167.5100, 265.5000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04517_
+	bbox = (245.3050, 349.0800) - (245.3400, 349.1700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04517_
+	bbox = (244.9800, 349.0800) - (245.3050, 349.1700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04517_
+	bbox = (249.6550, 363.5150) - (249.8750, 363.5600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04517_
+	bbox = (249.8750, 363.5150) - (249.9400, 363.5600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04530_
+	bbox = (247.0350, 349.2850) - (247.1050, 349.4650) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04530_ net:net198
+	bbox = (246.8900, 349.2850) - (246.8950, 349.4750) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04530_ net:net198
+	bbox = (246.8900, 349.2900) - (246.8950, 349.4300) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04530_ net:net198
+	bbox = (246.8900, 349.2850) - (246.8950, 349.4250) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_04530_ net:net198
+	bbox = (246.8900, 349.2900) - (246.8950, 349.4250) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_reg.periph_tx_req_reg\[14\]
+	bbox = (243.0400, 349.7600) - (243.1800, 349.7900) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_reg.periph_tx_req_reg\[14\]
+	bbox = (243.1800, 349.1700) - (243.2100, 349.5100) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_reg.periph_tx_req_reg\[14\]
+	bbox = (243.1800, 349.1900) - (243.2100, 349.5100) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_reg.periph_tx_req_reg\[14\]
+	bbox = (243.1800, 349.5100) - (243.2100, 349.6200) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_reg.periph_tx_req_reg\[14\]
+	bbox = (242.8350, 349.7600) - (243.1800, 349.7900) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[29\]
+	bbox = (335.0250, 243.6000) - (335.0400, 243.6800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[29\]
+	bbox = (335.0250, 243.6800) - (335.0400, 243.7100) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[29\]
+	bbox = (334.9500, 243.6000) - (335.0400, 243.6800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_
+	bbox = (354.5900, 229.9400) - (354.7200, 230.0800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_
+	bbox = (354.5900, 229.9400) - (354.7200, 230.1400) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (355.5100, 259.1800) - (355.6400, 259.3800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (355.5100, 259.1800) - (355.6400, 259.3200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_
+	bbox = (353.4950, 270.9250) - (353.6700, 271.0200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_
+	bbox = (353.4950, 270.9250) - (353.7100, 271.0200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.9850, 227.5100) - (355.2750, 227.5700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.7300, 229.1200) - (354.8850, 229.2000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.7300, 229.1200) - (354.9500, 229.2000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (334.4350, 243.7050) - (334.4900, 243.8200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (334.3900, 243.8200) - (334.4900, 243.8500) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (334.3900, 243.8200) - (334.4900, 244.0200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (334.3900, 243.8200) - (334.4900, 244.0800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (334.3900, 243.8200) - (334.4900, 243.8300) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.5150, 243.8300) - (354.7200, 243.8800) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (349.8550, 245.7200) - (349.9000, 245.7700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (349.8550, 245.7200) - (350.0500, 245.7700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (335.2150, 251.6000) - (335.4250, 251.7000) on Layer met1
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.1900, 272.9200) - (354.3450, 272.9700) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06649_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (336.1900, 251.3150) - (336.2950, 251.5450) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06649_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (336.1900, 251.3150) - (336.2950, 251.5200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06649_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (336.1900, 251.4150) - (336.2950, 251.5450) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06649_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (336.1900, 251.4150) - (336.2950, 251.5200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.5600, 227.6300) - (354.6700, 227.7700) on Layer met2
+violation type: Metal Spacing
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.5600, 227.6300) - (354.6700, 227.7900) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.9600, 227.5400) - (355.0000, 227.7700) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.9600, 227.5400) - (355.0950, 227.7700) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.9600, 227.7700) - (354.9700, 227.9000) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.9600, 227.6300) - (355.0000, 227.7700) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.9600, 227.6300) - (355.0950, 227.7700) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (355.0000, 227.8600) - (355.2350, 227.9000) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (355.0000, 227.8600) - (355.1100, 227.9000) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.7600, 229.1500) - (354.9200, 229.1700) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (354.7600, 229.1500) - (354.9600, 229.1700) on Layer met2
+violation type: Metal Spacing
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (355.8800, 262.0450) - (355.9100, 262.3650) on Layer met2
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[21\]
+	bbox = (425.6450, 336.0000) - (425.7550, 336.2050) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02764_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[4\]\[21\]
+	bbox = (427.6400, 335.9750) - (427.7350, 336.1600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02764_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[4\]\[21\]
+	bbox = (427.6400, 336.0200) - (427.7350, 336.1600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:_02764_
+	bbox = (427.1350, 336.0200) - (427.1950, 336.1600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:_02764_
+	bbox = (427.1350, 336.0200) - (427.1950, 336.2050) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:_02764_
+	bbox = (427.1350, 336.0450) - (427.1950, 336.1600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_
+	bbox = (429.0250, 336.3100) - (429.3150, 336.3600) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[22\]
+	bbox = (430.9500, 357.7450) - (430.9550, 357.9650) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[22\]
+	bbox = (430.9500, 357.7450) - (430.9550, 357.9200) on Layer met1
+violation type: Metal Spacing
+	srcs: net:_02764_
+	bbox = (427.4850, 335.9750) - (427.5000, 336.1600) on Layer met1
+violation type: Short
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[31\]
+	bbox = (303.9950, 205.4600) - (304.1300, 205.6700) on Layer met1
+violation type: Short
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[31\]
+	bbox = (303.9950, 205.4600) - (304.1300, 205.6250) on Layer met1
+violation type: Short
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[31\]
+	bbox = (303.9950, 205.4600) - (304.1300, 205.6000) on Layer met1
+violation type: Short
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[6\]
+	bbox = (301.3700, 218.6600) - (301.4300, 218.8600) on Layer met1
+violation type: Short
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[6\]
+	bbox = (301.3700, 218.7200) - (301.4300, 218.8600) on Layer met1
+violation type: Short
+	srcs: net:_06447_ net:_06629_
+	bbox = (303.7600, 216.3400) - (303.9000, 216.4800) on Layer met2
+violation type: Short
+	srcs: net:_04519_ net:_04530_
+	bbox = (187.3500, 357.7800) - (187.4900, 357.9150) on Layer met1
+violation type: Short
+	srcs: net:_04519_ net:_04530_
+	bbox = (187.3100, 357.7800) - (187.6000, 357.9150) on Layer met1
+violation type: Short
+	srcs: net:_07217_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_periph_mux_rd.periph_num\[3\]
+	bbox = (190.9850, 336.1300) - (191.2750, 336.1600) on Layer met1
+violation type: Short
+	srcs: net:_07217_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_periph_mux_rd.periph_num\[3\]
+	bbox = (190.9700, 336.1300) - (191.2900, 336.1600) on Layer met1
+violation type: Short
+	srcs: net:_07227_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_periph_mux_rd.periph_num\[3\]
+	bbox = (186.9200, 352.6800) - (187.0600, 352.8200) on Layer met1
+violation type: Short
+	srcs: net:_07228_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_periph_mux_rd.periph_num\[3\]
+	bbox = (186.9200, 352.6800) - (187.0150, 353.1600) on Layer met1
+violation type: Short
+	srcs: net:_07228_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_periph_mux_rd.periph_num\[3\]
+	bbox = (186.9200, 352.9600) - (187.0600, 353.1600) on Layer met1
+violation type: Short
+	srcs: net:_07227_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_periph_mux_rd.periph_num\[3\]
+	bbox = (186.9200, 352.6800) - (187.4900, 352.8200) on Layer met1
+violation type: Short
+	srcs: net:_07227_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_periph_mux_rd.periph_num\[3\]
+	bbox = (187.3500, 352.6800) - (187.4900, 352.8200) on Layer met1
+violation type: Short
+	srcs: net:_07228_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_periph_mux_rd.periph_num\[3\]
+	bbox = (186.9200, 352.6800) - (187.0150, 352.8200) on Layer met1
+violation type: Short
+	srcs: net:_07228_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_periph_mux_rd.periph_num\[3\]
+	bbox = (186.8750, 353.0200) - (187.0150, 353.1600) on Layer met1
+violation type: Short
+	srcs: net:_04517_ net:_04604_
+	bbox = (194.7650, 338.3550) - (194.9050, 338.5400) on Layer met1
+violation type: Short
+	srcs: net:_04604_ net:_04698_
+	bbox = (195.6600, 338.0600) - (195.7400, 338.2000) on Layer met1
+violation type: Short
+	srcs: net:_04604_ net:_04698_
+	bbox = (196.1200, 338.0600) - (196.2600, 338.2000) on Layer met1
+violation type: Short
+	srcs: net:_04604_ net:_04698_
+	bbox = (195.6600, 338.0600) - (196.2600, 338.2000) on Layer met1
+violation type: Short
+	srcs: net:_04604_ net:_04698_
+	bbox = (195.6600, 338.0600) - (195.8000, 338.2000) on Layer met1
+violation type: Short
+	srcs: net:_04517_ net:_04604_
+	bbox = (194.7650, 338.4000) - (194.9050, 338.5400) on Layer met1
+violation type: Short
+	srcs: net:_04517_ net:_04604_
+	bbox = (194.7400, 338.4000) - (194.9050, 338.5400) on Layer met1
+violation type: Short
+	srcs: net:_04517_ net:_04604_
+	bbox = (194.6650, 338.4000) - (194.9050, 338.5400) on Layer met1
+violation type: Short
+	srcs: net:_07227_ net:_07228_
+	bbox = (186.9200, 352.6800) - (187.0150, 352.8200) on Layer met1
+violation type: Short
+	srcs: net:_07227_ net:_07228_
+	bbox = (186.9200, 352.3400) - (187.0150, 352.8200) on Layer met1
+violation type: Short
+	srcs: net:_07227_ net:_07228_
+	bbox = (186.8750, 352.3400) - (187.0150, 352.4800) on Layer met1
+violation type: Short
+	srcs: net:_07227_ net:_07228_
+	bbox = (186.9200, 352.3400) - (187.0600, 352.5250) on Layer met1
+violation type: Short
+	srcs: net:_07227_ net:_07228_
+	bbox = (186.8450, 352.3400) - (187.0600, 352.4800) on Layer met1
+violation type: Short
+	srcs: net:_04517_ net:_04698_
+	bbox = (195.6000, 338.7400) - (195.7400, 338.8800) on Layer met1
+violation type: Short
+	srcs: net:_04517_ net:_04698_
+	bbox = (195.6600, 338.7400) - (195.7400, 338.8800) on Layer met1
+violation type: Short
+	srcs: net:_02695_ net:net84
+	bbox = (321.2400, 47.3600) - (321.3800, 47.5000) on Layer met1
+violation type: Short
+	srcs: net:_02695_ net:net84
+	bbox = (321.2400, 47.4500) - (321.3800, 47.5000) on Layer met1
+violation type: Short
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[8\]
+	bbox = (307.1350, 278.4500) - (307.4250, 278.5900) on Layer met1
+violation type: Short
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[8\]
+	bbox = (307.1350, 278.4500) - (307.2500, 278.5900) on Layer met1
+violation type: Short
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[8\]
+	bbox = (307.1350, 278.4500) - (307.2100, 278.5900) on Layer met1
+violation type: Short
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[8\]
+	bbox = (307.1100, 278.4550) - (307.2500, 278.5900) on Layer met1
+violation type: Short
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[8\]
+	bbox = (307.1100, 278.4550) - (307.2100, 278.5900) on Layer met1
+violation type: Short
+	srcs: net:_06448_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[8\]
+	bbox = (307.1100, 278.4550) - (307.4250, 278.5900) on Layer met1
+violation type: Short
+	srcs: net:_06447_ net:_06448_
+	bbox = (306.0600, 276.5200) - (306.2000, 276.6600) on Layer met1
+violation type: Short
+	srcs: net:_06446_ net:_06448_
+	bbox = (309.5100, 276.5200) - (309.6500, 276.6600) on Layer met1
+violation type: Short
+	srcs: net:_07228_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_periph_mux_rd.periph_num\[3\]
+	bbox = (186.7850, 353.0200) - (187.0600, 353.1600) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[24\]
+	bbox = (362.0300, 343.7950) - (362.1700, 343.9800) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[24\]
+	bbox = (362.0300, 343.8500) - (362.1700, 343.9800) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[24\]
+	bbox = (361.9550, 343.8400) - (362.1700, 343.9800) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[24\]
+	bbox = (361.9550, 343.8500) - (362.1700, 343.9800) on Layer met1
+violation type: Short
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_outs_rd.outs_max\[1\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.wr_outs_max_reg\[1\]
+	bbox = (181.7700, 287.0900) - (182.0900, 287.2300) on Layer met1
+violation type: Short
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_outs_rd.outs_max\[1\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.wr_outs_max_reg\[1\]
+	bbox = (181.7700, 287.0900) - (182.0900, 287.1950) on Layer met1
+violation type: Short
+	srcs: net:_04716_ net:_04886_
+	bbox = (125.4900, 240.1400) - (125.6300, 240.2800) on Layer met1
+violation type: Short
+	srcs: net:_04716_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.cmd_counter\[4\]
+	bbox = (124.9900, 240.1400) - (125.0500, 240.2800) on Layer met1
+violation type: Short
+	srcs: net:_04716_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.cmd_counter\[4\]
+	bbox = (124.9900, 240.1400) - (125.1300, 240.2800) on Layer met1
+violation type: Short
+	srcs: net:_04716_ net:_04972_
+	bbox = (127.4300, 241.1600) - (127.5700, 241.3000) on Layer met1
+violation type: Short
+	srcs: net:_04716_ net:_04970_
+	bbox = (129.4200, 241.5000) - (129.5600, 241.6400) on Layer met1
+violation type: Short
+	srcs: net:_04716_ net:_04970_
+	bbox = (129.3300, 241.5000) - (129.6500, 241.6400) on Layer met1
+violation type: Short
+	srcs: net:_04834_ net:_04929_
+	bbox = (130.3400, 242.8600) - (130.4800, 243.0000) on Layer met1
+violation type: Short
+	srcs: net:_04929_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.cmd_counter\[4\]
+	bbox = (124.9150, 240.5350) - (124.9600, 240.5600) on Layer met1
+violation type: Short
+	srcs: net:_04929_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.int_rawstat\[0\]
+	bbox = (126.3900, 268.0200) - (126.5300, 268.1600) on Layer met1
+violation type: Short
+	srcs: net:_04929_ net:_05036_
+	bbox = (124.3600, 268.0200) - (124.5000, 268.1600) on Layer met1
+violation type: Short
+	srcs: net:_04929_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.int_rawstat\[0\]
+	bbox = (126.0300, 268.0200) - (126.1250, 268.1600) on Layer met1
+violation type: Short
+	srcs: net:_04929_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.int_rawstat\[0\]
+	bbox = (126.0300, 268.0200) - (126.1700, 268.1600) on Layer met1
+violation type: Short
+	srcs: net:_04929_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.int_rawstat\[0\]
+	bbox = (126.0300, 268.0200) - (126.5300, 268.1600) on Layer met1
+violation type: Short
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.int_enable\[1\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.int_rawstat\[0\]
+	bbox = (127.1450, 268.0200) - (127.2850, 268.1600) on Layer met1
+violation type: Short
+	srcs: net:_04935_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_outs_rd.outs\[0\]
+	bbox = (123.6700, 267.6500) - (123.8100, 267.7900) on Layer met1
+violation type: Short
+	srcs: net:_04935_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_outs_rd.outs\[0\]
+	bbox = (123.6700, 267.6500) - (123.7100, 267.8650) on Layer met1
+violation type: Short
+	srcs: net:_04935_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_outs_rd.outs\[0\]
+	bbox = (123.5950, 267.6500) - (123.8850, 267.7900) on Layer met1
+violation type: Short
+	srcs: net:_04935_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_outs_rd.outs\[0\]
+	bbox = (123.5950, 267.6500) - (123.7100, 267.8650) on Layer met1
+violation type: Short
+	srcs: net:_05032_ net:_05036_
+	bbox = (125.4300, 267.3400) - (125.5700, 267.4800) on Layer met1
+violation type: Short
+	srcs: net:_04716_ net:_04834_
+	bbox = (130.3400, 244.3900) - (130.4800, 245.2100) on Layer met2
+violation type: Short
+	srcs: net:_04716_ net:_04834_
+	bbox = (130.3400, 245.0700) - (130.4800, 245.2100) on Layer met2
+violation type: Short
+	srcs: net:_04716_ net:_04834_
+	bbox = (130.3400, 244.3900) - (130.4800, 244.5300) on Layer met2
+violation type: Short
+	srcs: net:_04886_ net:_04970_
+	bbox = (128.9900, 242.4300) - (129.1000, 242.4900) on Layer met2
+violation type: Short
+	srcs: net:_04886_ net:_04970_
+	bbox = (128.9900, 242.3500) - (129.1000, 242.4900) on Layer met2
+violation type: Short
+	srcs: net:_04886_ net:_04970_
+	bbox = (128.9900, 242.4300) - (129.1300, 242.4900) on Layer met2
+violation type: Short
+	srcs: net:_04886_ net:_04970_
+	bbox = (128.9900, 242.3500) - (129.1300, 242.4900) on Layer met2
+violation type: Short
+	srcs: net:_06446_ net:_06448_
+	bbox = (309.5090, 276.4600) - (309.5110, 276.6600) on Layer met1
+violation type: Short
+	srcs: net:_06446_ net:_06448_
+	bbox = (309.5090, 276.4600) - (309.5110, 276.7200) on Layer met1
+violation type: Short
+	srcs: net:_06446_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[18\]
+	bbox = (295.3900, 276.1400) - (295.7100, 276.2800) on Layer met1
+violation type: Short
+	srcs: net:_06446_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[18\]
+	bbox = (295.3900, 276.1800) - (295.7100, 276.2800) on Layer met1
+violation type: Short
+	srcs: net:_06446_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[18\]
+	bbox = (295.3050, 276.1400) - (295.7100, 276.2800) on Layer met1
+violation type: Short
+	srcs: net:_06446_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[18\]
+	bbox = (295.3050, 276.1800) - (295.7100, 276.2800) on Layer met1
+violation type: Short
+	srcs: net:_06449_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[8\]
+	bbox = (308.3600, 276.0900) - (308.5000, 276.4100) on Layer met2
+violation type: Short
+	srcs: net:_06449_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.ch_fifo_wdata\[8\]
+	bbox = (308.3600, 276.1800) - (308.5000, 276.3200) on Layer met2
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[26\]
+	bbox = (322.2350, 325.2000) - (322.2550, 325.2250) on Layer met1
+violation type: Short
+	srcs: net:_03854_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.DOUT\[5\]
+	bbox = (382.0550, 150.7200) - (382.1000, 151.1450) on Layer met1
+violation type: Short
+	srcs: net:_03854_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.DOUT\[5\]
+	bbox = (382.0550, 150.9600) - (382.1000, 151.1450) on Layer met1
+violation type: Short
+	srcs: net:_03854_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.DOUT\[5\]
+	bbox = (381.9850, 150.9600) - (382.1000, 151.1450) on Layer met1
+violation type: Short
+	srcs: net:_03854_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.DOUT\[5\]
+	bbox = (381.9850, 150.7200) - (382.1000, 151.1450) on Layer met1
+violation type: Short
+	srcs: net:_03854_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.DOUT\[5\]
+	bbox = (381.9850, 150.9600) - (382.0050, 151.1450) on Layer met1
+violation type: Short
+	srcs: net:_03854_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.DOUT\[5\]
+	bbox = (381.9850, 150.7200) - (382.0050, 151.1450) on Layer met1
+violation type: Short
+	srcs: net:_03854_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.DOUT\[5\]
+	bbox = (382.0550, 150.7200) - (382.1000, 150.8600) on Layer met1
+violation type: Short
+	srcs: net:_03854_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.DOUT\[5\]
+	bbox = (381.9850, 150.7200) - (382.1000, 150.8600) on Layer met1
+violation type: Short
+	srcs: net:_02764_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[4\]\[30\]
+	bbox = (404.5000, 360.1600) - (404.6400, 360.3450) on Layer met1
+violation type: Short
+	srcs: net:_02764_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[4\]\[30\]
+	bbox = (404.5000, 360.1600) - (404.7150, 360.3000) on Layer met1
+violation type: Short
+	srcs: net:_02764_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[30\]
+	bbox = (404.0400, 360.1300) - (404.1800, 360.2700) on Layer met1
+violation type: Short
+	srcs: net:_02764_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[4\]\[30\]
+	bbox = (404.5000, 360.1600) - (404.6400, 360.2700) on Layer met1
+violation type: Short
+	srcs: net:_02764_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[30\]
+	bbox = (403.9650, 360.1300) - (404.2550, 360.2700) on Layer met1
+violation type: Short
+	srcs: net:_02764_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[4\]\[30\]
+	bbox = (404.5000, 360.1600) - (404.7150, 360.2700) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[18\]
+	bbox = (394.6150, 335.9750) - (394.6450, 336.1850) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[18\]
+	bbox = (394.6150, 336.0200) - (394.6450, 336.1850) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[0\]\[18\]
+	bbox = (394.6150, 336.0450) - (394.6450, 336.1850) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[30\]
+	bbox = (406.0350, 360.1700) - (406.1450, 360.4000) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[30\]
+	bbox = (406.0050, 360.2150) - (406.1450, 360.3550) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[30\]
+	bbox = (406.0350, 360.1700) - (406.3250, 360.3100) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[30\]
+	bbox = (406.0050, 360.2150) - (406.3250, 360.3100) on Layer met1
+violation type: Short
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[4\]\[30\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[30\]
+	bbox = (405.2700, 360.1600) - (405.4050, 360.3000) on Layer met1
+violation type: Short
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[4\]\[30\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[30\]
+	bbox = (405.2700, 360.1150) - (405.4050, 360.3450) on Layer met1
+violation type: Short
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[4\]\[30\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[30\]
+	bbox = (405.2700, 360.2150) - (405.4050, 360.3000) on Layer met1
+violation type: Short
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[4\]\[30\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[6\]\[30\]
+	bbox = (405.2700, 360.2150) - (405.4050, 360.3450) on Layer met1
+violation type: Short
+	srcs: net:_06036_ net:_06038_
+	bbox = (42.7400, 284.3400) - (42.8500, 284.4700) on Layer met1
+violation type: Short
+	srcs: net:_06036_ net:_06038_
+	bbox = (42.7400, 284.3300) - (42.8500, 284.4700) on Layer met1
+violation type: Short
+	srcs: net:_06036_ net:_06038_
+	bbox = (42.7400, 284.3300) - (42.8500, 284.4800) on Layer met1
+violation type: Short
+	srcs: net:_06036_ net:_06038_
+	bbox = (42.7400, 284.3400) - (42.8500, 284.4800) on Layer met1
+violation type: Short
+	srcs: net:_06036_ net:_06038_
+	bbox = (42.7100, 284.3400) - (42.8500, 284.4700) on Layer met1
+violation type: Short
+	srcs: net:_06036_ net:_06038_
+	bbox = (42.7100, 284.3300) - (42.8500, 284.4700) on Layer met1
+violation type: Short
+	srcs: net:_06036_ net:_06038_
+	bbox = (42.7100, 284.3300) - (42.8500, 284.4800) on Layer met1
+violation type: Short
+	srcs: net:_06036_ net:_06038_
+	bbox = (42.7100, 284.3400) - (42.8500, 284.4800) on Layer met1
+violation type: Short
+	srcs: net:_06758_ net:_06834_
+	bbox = (229.1500, 91.2200) - (229.3800, 91.3500) on Layer met1
+violation type: Short
+	srcs: net:_06758_ net:_06834_
+	bbox = (229.1500, 91.2100) - (229.3800, 91.3500) on Layer met1
+violation type: Short
+	srcs: net:_06758_ net:_06834_
+	bbox = (229.2400, 91.1600) - (229.3800, 91.3500) on Layer met1
+violation type: Short
+	srcs: net:_06834_ net:_06835_
+	bbox = (229.2400, 90.8800) - (229.3800, 91.0200) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[15\]
+	bbox = (354.1300, 224.5000) - (354.2700, 224.6400) on Layer met1
+violation type: Short
+	srcs: net:_06347_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[31\]
+	bbox = (352.4300, 224.4400) - (352.4550, 224.7000) on Layer met1
+violation type: Short
+	srcs: net:_06347_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[31\]
+	bbox = (352.4300, 224.4400) - (352.4550, 224.6400) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:_06347_
+	bbox = (354.1300, 224.8400) - (354.2700, 224.9800) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (350.4500, 224.1700) - (350.5900, 224.3000) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (350.4500, 224.1700) - (350.6550, 224.3000) on Layer met1
+violation type: Short
+	srcs: net:_04722_ net:_05031_
+	bbox = (131.2600, 267.6900) - (131.4000, 267.8300) on Layer met1
+violation type: Short
+	srcs: net:_04722_ net:_05031_
+	bbox = (131.1850, 267.6900) - (131.4750, 267.8300) on Layer met1
+violation type: Short
+	srcs: net:_04722_ net:_05031_
+	bbox = (131.2600, 267.7350) - (131.4000, 267.8300) on Layer met1
+violation type: Short
+	srcs: net:_04722_ net:_05031_
+	bbox = (131.1850, 267.7350) - (131.4750, 267.8300) on Layer met1
+violation type: Short
+	srcs: net:_04722_ net:_05031_
+	bbox = (131.2600, 267.7350) - (131.4000, 267.8200) on Layer met1
+violation type: Short
+	srcs: net:_04722_ net:_05031_
+	bbox = (131.1850, 267.7350) - (131.4750, 267.8200) on Layer met1
+violation type: Short
+	srcs: net:net103 net:_00783_
+	bbox = (151.1400, 267.6400) - (151.1800, 267.8700) on Layer met1
+violation type: Short
+	srcs: net:net103 net:_00783_
+	bbox = (151.1400, 267.6400) - (151.4300, 267.7700) on Layer met1
+violation type: Short
+	srcs: net:net103 net:_00783_
+	bbox = (151.0400, 267.6800) - (151.1800, 267.8250) on Layer met1
+violation type: Short
+	srcs: net:net103 net:_00783_
+	bbox = (151.0400, 267.6800) - (151.4300, 267.7700) on Layer met1
+violation type: Short
+	srcs: net:net103 net:_00783_
+	bbox = (151.0400, 267.6800) - (151.1800, 267.8200) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (333.3300, 244.2200) - (333.4700, 244.3600) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (333.3300, 244.2200) - (333.4300, 244.3600) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (333.1100, 244.2200) - (333.4700, 244.3600) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (333.1100, 244.2200) - (333.4300, 244.3600) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (333.1100, 244.2200) - (334.3900, 244.3600) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (334.2500, 244.2200) - (334.3900, 244.3600) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[13\]
+	bbox = (334.2650, 244.2200) - (334.3900, 244.3600) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[9\]
+	bbox = (355.5000, 262.9200) - (355.6400, 263.0600) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[9\]
+	bbox = (355.5000, 262.9200) - (355.5100, 263.0600) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[9\]
+	bbox = (355.1900, 262.9200) - (355.5100, 263.0600) on Layer met1
+violation type: Short
+	srcs: net:_06345_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[9\]
+	bbox = (355.1900, 262.9200) - (355.6400, 263.0600) on Layer met1
+violation type: Short
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[4\]
+	bbox = (350.1300, 245.8600) - (350.1450, 246.0000) on Layer met1
+violation type: Short
+	srcs: net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\] net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.slice_wdata_pre_d\[4\]
+	bbox = (350.1300, 245.8750) - (350.1450, 246.0000) on Layer met1
+violation type: Short
+	srcs: net:_06649_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (336.4200, 251.3150) - (336.5600, 251.5450) on Layer met1
+violation type: Short
+	srcs: net:_06649_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (336.4200, 251.3150) - (336.5600, 251.5550) on Layer met1
+violation type: Short
+	srcs: net:_06649_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (336.4200, 251.4150) - (336.5600, 251.5550) on Layer met1
+violation type: Short
+	srcs: net:_06649_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_wr_slicer.end_swap\[1\]
+	bbox = (336.4200, 251.4150) - (336.5600, 251.5450) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[21\]
+	bbox = (425.3550, 336.0000) - (425.4900, 336.1600) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[21\]
+	bbox = (425.3550, 336.0450) - (425.4900, 336.1600) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[21\]
+	bbox = (425.7550, 336.0450) - (426.0450, 336.1850) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[21\]
+	bbox = (425.9700, 336.0200) - (426.0450, 336.1600) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[21\]
+	bbox = (425.9700, 336.0200) - (426.0450, 336.1850) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[21\]
+	bbox = (425.7550, 336.0450) - (426.0450, 336.1600) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[21\]
+	bbox = (425.3550, 336.0200) - (425.6450, 336.1600) on Layer met1
+violation type: Short
+	srcs: net:_02763_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.dma_axi32_ch_fifo.Mem\[1\]\[21\]
+	bbox = (425.3550, 336.0450) - (426.0450, 336.1600) on Layer met1
+violation type: Short
+	srcs: net:_02758_ net:_02763_
+	bbox = (426.3900, 336.0650) - (426.7100, 336.1600) on Layer met1
+violation type: Short
+	srcs: net:_02758_ net:_02763_
+	bbox = (426.2750, 336.0800) - (426.7100, 336.1600) on Layer met1
+violation type: Cut Spacing
+	srcs: net:_04834_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_reg.dma_axi32_core0_ch_reg_size_rd.burst_max_size_reg\[5\]
+	bbox = (126.6450, 243.6300) - (126.8150, 243.6400) on Layer mcon
+violation type: Cut Spacing
+	srcs: net:_04935_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_outs_rd.outs\[0\]
+	bbox = (123.8250, 267.6650) - (123.9950, 267.8350) on Layer mcon
+violation type: Cut Spacing
+	srcs: net:_03854_ net:dma_axi32_dual_core.dma_axi32_core0_top.dma_axi32_core0.dma_axi32_core0_channels.dma_axi32_core0_ch0.dma_axi32_ch_fifo_ctrl.DOUT\[5\]
+	bbox = (381.9450, 150.9900) - (382.1150, 151.1600) on Layer mcon
