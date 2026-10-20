@@ -1,6 +1,10 @@
 # Simulation artifacts
 sim/build/
 
+# Third-party copyrighted course materials
+docs/reference/*Reference*.pdf
+docs/reference/*book*.pdf
+
 # Temporary / OS files
 *~
 *.swp

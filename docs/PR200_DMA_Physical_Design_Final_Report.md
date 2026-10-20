@@ -3,7 +3,7 @@
 **Design Block:** `dma_axi32` (32-bit AXI3 Dual-Core DMA Controller)  
 **EDA Flow:** Icarus Verilog $\to$ Yosys $\to$ OpenROAD v2.0 (Native Multi-Threaded) $\to$ KLayout v0.28.16  
 **Original IP Core:** Provartec Ltd. via [OpenCores.org](http://www.opencores.org) (Author: Eyal Hochberg, GNU LGPL)  
-**Reference Curriculum:** [Physical Design Reference Book (Chapters 1–17)](reference/Physical_Design_Reference_Book.pdf) & [PR200 Technical Reference Manual Rev 1.6](reference/PR200_trm_rev1.6.pdf)
+**Reference Specifications:** [PR200 Technical Reference Manual Rev 1.6](reference/PR200_trm_rev1.6.pdf) & Standard ASIC Physical Design Flow (Chapters 1–17)
 
 ---
 

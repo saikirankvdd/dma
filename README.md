@@ -8,12 +8,10 @@
 
 ---
 
-## 📚 Source Reference Documentation & PDFs
+## 📚 Source Reference Documentation
 
-The foundational reference materials and architectural specifications used throughout this project are preserved directly within this repository:
-
-1. **[Physical Design Reference Book (Chapters 1–17)](docs/reference/Physical_Design_Reference_Book.pdf)**: Complete reference handbook covering standard cell ASIC implementation, SDC constraints, floorplanning, CTS, global/detailed routing, and timing signoff.
-2. **[Provartec PR200 Technical Reference Manual (TRM Rev 1.6)](docs/reference/PR200_trm_rev1.6.pdf)**: Official 32-bit/64-bit dual-core AXI DMA controller hardware specification, register programming map, and AMBA AXI3 bus protocol definitions.
+1. **[Provartec PR200 Technical Reference Manual (TRM Rev 1.6)](docs/reference/PR200_trm_rev1.6.pdf)**: Official 32-bit/64-bit dual-core AXI DMA controller hardware specification, register programming map, and AMBA AXI3 bus protocol definitions (Open Source, GNU LGPL).
+2. **Physical Design Implementation Flow**: Strict adherence to industry standard ASIC flow (Inputs/Outputs, Floorplanning, Power Distribution, Placement, CTS/CTO, Detailed Routing, DRC/LVS, Parasitic RC Extraction, and STA Signoff).
 
 ---
 
