@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-properties>
+ <properties>
+  <frame-color>#555555</frame-color>
+  <fill-color>#000000</fill-color>
+  <dither-pattern>I2</dither-pattern>
+  <visible>true</visible>
+  <name>prBoundary.boundary - 235/4</name>
+  <source>235/4@*</source>
+ </properties>
+ <properties>
+  <frame-color>#00cc44</frame-color>
+  <fill-color>#00cc44</fill-color>
+  <dither-pattern>C7</dither-pattern>
+  <visible>true</visible>
+  <name>met3.drawing - 70/20</name>
+  <source>70/20@*</source>
+ </properties>
+</layer-properties>

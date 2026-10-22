@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-properties>
+ <properties>
+  <frame-color>#666666</frame-color>
+  <fill-color>#000000</fill-color>
+  <dither-pattern>I2</dither-pattern>
+  <visible>false</visible>
+  <name>prBoundary.boundary - 235/4</name>
+  <source>235/4@*</source>
+ </properties>
+ <properties>
+  <frame-color>#0077ff</frame-color>
+  <fill-color>#0077ff</fill-color>
+  <dither-pattern>C7</dither-pattern>
+  <visible>true</visible>
+  <name>met1.drawing - 68/20 (Layer 1 - Blue)</name>
+  <source>68/20@*</source>
+ </properties>
+ <properties>
+  <frame-color>#ff2200</frame-color>
+  <fill-color>#ff2200</fill-color>
+  <dither-pattern>C7</dither-pattern>
+  <visible>true</visible>
+  <name>met2.drawing - 69/20 (Layer 2 - Red)</name>
+  <source>69/20@*</source>
+ </properties>
+ <properties>
+  <frame-color>#00cc44</frame-color>
+  <fill-color>#00cc44</fill-color>
+  <dither-pattern>C7</dither-pattern>
+  <visible>true</visible>
+  <name>met3.drawing - 70/20 (Layer 3 - Green)</name>
+  <source>70/20@*</source>
+ </properties>
+ <properties>
+  <frame-color>#9900ff</frame-color>
+  <fill-color>#9900ff</fill-color>
+  <dither-pattern>C7</dither-pattern>
+  <visible>true</visible>
+  <name>met4.drawing - 71/20 (Layer 4 - Purple)</name>
+  <source>71/20@*</source>
+ </properties>
+ <properties>
+  <frame-color>#ff8800</frame-color>
+  <fill-color>#ff8800</fill-color>
+  <dither-pattern>C7</dither-pattern>
+  <visible>true</visible>
+  <name>met5.drawing - 72/20 (Layer 5 - Orange)</name>
+  <source>72/20@*</source>
+ </properties>
+</layer-properties>

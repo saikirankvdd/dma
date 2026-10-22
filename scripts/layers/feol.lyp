@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-properties>
+ <properties>
+  <frame-color>#555555</frame-color>
+  <fill-color>#000000</fill-color>
+  <dither-pattern>I2</dither-pattern>
+  <visible>true</visible>
+  <name>prBoundary.boundary - 235/4</name>
+  <source>235/4@*</source>
+ </properties>
+ <properties>
+  <frame-color>#9932cc</frame-color>
+  <fill-color>#9932cc</fill-color>
+  <dither-pattern>C12</dither-pattern>
+  <visible>true</visible>
+  <name>nwell.drawing - 64/20 (N-Well)</name>
+  <source>64/20@*</source>
+ </properties>
+ <properties>
+  <frame-color>#4a235a</frame-color>
+  <fill-color>#4a235a</fill-color>
+  <dither-pattern>C8</dither-pattern>
+  <visible>true</visible>
+  <name>pwell.drawing - 122/16 (P-Well)</name>
+  <source>122/16@*</source>
+ </properties>
+ <properties>
+  <frame-color>#663399</frame-color>
+  <fill-color>#663399</fill-color>
+  <dither-pattern>C4</dither-pattern>
+  <visible>true</visible>
+  <name>dnwell.drawing - 64/18 (Deep N-Well)</name>
+  <source>64/18@*</source>
+ </properties>
+ <properties>
+  <frame-color>#00aa00</frame-color>
+  <fill-color>#00aa00</fill-color>
+  <dither-pattern>C7</dither-pattern>
+  <visible>true</visible>
+  <name>diff.drawing - 65/20 (Diffusion / Active)</name>
+  <source>65/20@*</source>
+ </properties>
+ <properties>
+  <frame-color>#ffcc00</frame-color>
+  <fill-color>#ffcc00</fill-color>
+  <dither-pattern>C9</dither-pattern>
+  <visible>true</visible>
+  <name>tap.drawing - 65/44 (Substrate Tap)</name>
+  <source>65/44@*</source>
+ </properties>
+ <properties>
+  <frame-color>#ff2222</frame-color>
+  <fill-color>#ff2222</fill-color>
+  <dither-pattern>C1</dither-pattern>
+  <visible>true</visible>
+  <name>poly.drawing - 66/20 (Polysilicon Gates)</name>
+  <source>66/20@*</source>
+ </properties>
+</layer-properties>

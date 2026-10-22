@@ -3,7 +3,7 @@
 # Interactive KLayout GUI Viewer with SkyWater 130nm PDK Technology Stack
 ###############################################################################
 
-DEF_FILE="${1:-/home/saikiran/dma/pd/placement/dma_axi32_placed.def}"
+DEF_FILE="${1:-/home/saikiran/dma/pd/routing/dma_axi32_routed.def}"
 PDK_ROOT="/home/saikiran/.volare/sky130A"
 TECH_LEF="$PDK_ROOT/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef"
 CELL_LEF="$PDK_ROOT/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef"
@@ -17,4 +17,5 @@ export LD_LIBRARY_PATH="/home/saikiran/.local/usr/lib/klayout:/home/saikiran/.lo
 echo "Opening $DEF_FILE in KLayout GUI with Sky130 technology..."
 export KLAYOUT_ARGV="-l $TECH_LEF -l $CELL_LEF -T $LYT -P $LYP -M $LYM $DEF_FILE"
 
-klayout -rx -rm "$SCRIPT" &
+klayout -rx -rm "$SCRIPT" 2>/dev/null &
+echo "KLayout launched in background successfully!"

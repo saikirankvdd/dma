@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-properties>
+ <properties>
+  <frame-color>#555555</frame-color>
+  <fill-color>#000000</fill-color>
+  <dither-pattern>I2</dither-pattern>
+  <visible>true</visible>
+  <name>prBoundary.boundary - 235/4</name>
+  <source>235/4@*</source>
+ </properties>
+ <properties>
+  <frame-color>#00aa00</frame-color>
+  <fill-color>#00aa00</fill-color>
+  <dither-pattern>C12</dither-pattern>
+  <visible>true</visible>
+  <name>diff.drawing - 65/20</name>
+  <source>65/20@*</source>
+ </properties>
+ <properties>
+  <frame-color>#ffcc00</frame-color>
+  <fill-color>#ffcc00</fill-color>
+  <dither-pattern>C8</dither-pattern>
+  <visible>true</visible>
+  <name>tap.drawing - 65/44</name>
+  <source>65/44@*</source>
+ </properties>
+</layer-properties>

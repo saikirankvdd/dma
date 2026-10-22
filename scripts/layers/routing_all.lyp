@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-properties>
+ <properties>
+  <frame-color>#555555</frame-color>
+  <fill-color>#000000</fill-color>
+  <dither-pattern>I2</dither-pattern>
+  <visible>false</visible>
+  <name>prBoundary.boundary - 235/4</name>
+  <source>235/4@*</source>
+ </properties>
+ <properties>
+  <frame-color>#ffffff</frame-color>
+  <fill-color>#ffffff</fill-color>
+  <dither-pattern>C12</dither-pattern>
+  <visible>true</visible>
+  <name>licon.drawing - 66/44 (Local Contact)</name>
+  <source>66/44@*</source>
+ </properties>
+ <properties>
+  <frame-color>#00ffff</frame-color>
+  <fill-color>#00ffff</fill-color>
+  <dither-pattern>C8</dither-pattern>
+  <visible>true</visible>
+  <name>li1.drawing - 67/20 (Local Interconnect Metal)</name>
+  <source>67/20@*</source>
+ </properties>
+ <properties>
+  <frame-color>#ffff00</frame-color>
+  <fill-color>#ffff00</fill-color>
+  <dither-pattern>C12</dither-pattern>
+  <visible>true</visible>
+  <name>mcon.drawing - 67/44 (Metal 1 Contact)</name>
+  <source>67/44@*</source>
+ </properties>
+ <properties>
+  <frame-color>#0077ff</frame-color>
+  <fill-color>#0077ff</fill-color>
+  <dither-pattern>C7</dither-pattern>
+  <visible>true</visible>
+  <name>met1.drawing - 68/20 (Metal 1 - Blue)</name>
+  <source>68/20@*</source>
+ </properties>
+ <properties>
+  <frame-color>#00ffff</frame-color>
+  <fill-color>#00ffff</fill-color>
+  <dither-pattern>C12</dither-pattern>
+  <visible>true</visible>
+  <name>via.drawing - 68/44 (Via 1: M1-M2)</name>
+  <source>68/44@*</source>
+ </properties>
+ <properties>
+  <frame-color>#ff2200</frame-color>
+  <fill-color>#ff2200</fill-color>
+  <dither-pattern>C7</dither-pattern>
+  <visible>true</visible>
+  <name>met2.drawing - 69/20 (Metal 2 - Red)</name>
+  <source>69/20@*</source>
+ </properties>
+ <properties>
+  <frame-color>#ffff00</frame-color>
+  <fill-color>#ffff00</fill-color>
+  <dither-pattern>C12</dither-pattern>
+  <visible>true</visible>
+  <name>via2.drawing - 69/44 (Via 2: M2-M3)</name>
+  <source>69/44@*</source>
+ </properties>
+ <properties>
+  <frame-color>#00cc44</frame-color>
+  <fill-color>#00cc44</fill-color>
+  <dither-pattern>C7</dither-pattern>
+  <visible>true</visible>
+  <name>met3.drawing - 70/20 (Metal 3 - Green)</name>
+  <source>70/20@*</source>
+ </properties>
+ <properties>
+  <frame-color>#ff00ff</frame-color>
+  <fill-color>#ff00ff</fill-color>
+  <dither-pattern>C12</dither-pattern>
+  <visible>true</visible>
+  <name>via3.drawing - 70/44 (Via 3: M3-M4)</name>
+  <source>70/44@*</source>
+ </properties>
+ <properties>
+  <frame-color>#9900ff</frame-color>
+  <fill-color>#9900ff</fill-color>
+  <dither-pattern>C7</dither-pattern>
+  <visible>true</visible>
+  <name>met4.drawing - 71/20 (Metal 4 - Purple)</name>
+  <source>71/20@*</source>
+ </properties>
+ <properties>
+  <frame-color>#ffffff</frame-color>
+  <fill-color>#ffffff</fill-color>
+  <dither-pattern>C12</dither-pattern>
+  <visible>true</visible>
+  <name>via4.drawing - 71/44 (Via 4: M4-M5)</name>
+  <source>71/44@*</source>
+ </properties>
+ <properties>
+  <frame-color>#ff8800</frame-color>
+  <fill-color>#ff8800</fill-color>
+  <dither-pattern>C7</dither-pattern>
+  <visible>true</visible>
+  <name>met5.drawing - 72/20 (Metal 5 - Orange)</name>
+  <source>72/20@*</source>
+ </properties>
+</layer-properties>

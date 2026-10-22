@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-properties>
+ <properties>
+  <frame-color>#555555</frame-color>
+  <fill-color>#000000</fill-color>
+  <dither-pattern>I2</dither-pattern>
+  <visible>true</visible>
+  <name>prBoundary.boundary - 235/4</name>
+  <source>235/4@*</source>
+ </properties>
+ <properties>
+  <frame-color>#ffffff</frame-color>
+  <fill-color>#ffffff</fill-color>
+  <dither-pattern>C12</dither-pattern>
+  <visible>true</visible>
+  <name>licon.drawing - 66/44 (Local Interconnect Contact)</name>
+  <source>66/44@*</source>
+ </properties>
+ <properties>
+  <frame-color>#00ffff</frame-color>
+  <fill-color>#00ffff</fill-color>
+  <dither-pattern>C8</dither-pattern>
+  <visible>true</visible>
+  <name>li1.drawing - 67/20 (Local Interconnect Metal)</name>
+  <source>67/20@*</source>
+ </properties>
+ <properties>
+  <frame-color>#ffff00</frame-color>
+  <fill-color>#ffff00</fill-color>
+  <dither-pattern>C12</dither-pattern>
+  <visible>true</visible>
+  <name>mcon.drawing - 67/44 (Metal 1 Contact)</name>
+  <source>67/44@*</source>
+ </properties>
+</layer-properties>
