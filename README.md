@@ -316,6 +316,76 @@ SkyWater 130nm utilizes an alternating orthogonal routing grid:
 
 ---
 
+## 🕹️ Master Execution Guide: The 18 Verification & Layout Commands
+
+Below is the complete, numbered index of the **18 commands** corresponding to every verification waveform, OpenROAD layout view, and KLayout silicon layer:
+
+### Part 1: OpenROAD Layout (1 Command)
+| # | What It Shows | Command |
+| :---: | :--- | :--- |
+| **1** | **OpenROAD Routed GUI Layout** (Placed standard cells, nets, and 377 perimeter pins) | `./scripts/view_openroad_gui.sh` |
+
+### Part 2: GTKWave Simulation Waveforms (3 Commands)
+| # | What It Shows | Command |
+| :---: | :--- | :--- |
+| **2** | **Baseline AXI Burst Handshake Waveforms** (8-word write/read bursts, APB3 configuration) | `gtkwave sim/waveforms/dma_axi32.vcd &` |
+| **3** | **Random Stall Stress Regression Waveforms** (Backpressure injection, FIFO flags) | `gtkwave sim/waveforms/dma_axi32_stress.vcd &` |
+| **4** | **Multi-Tasking Ultra-Stress Waveforms** (Continuous stress across interleaved channels) | `gtkwave sim/waveforms/dma_axi32_ultra_stress.vcd &` |
+
+### Part 3: KLayout — Front-End Silicon Layers / FEOL (4 Commands)
+| # | What It Shows | Script Command | Direct Command |
+| :---: | :--- | :--- | :--- |
+| **5** | **Wells Only** (N-well, P-well, Deep N-well) | `./scripts/view_layer.sh wells` | `klayout -l scripts/layers/wells.lyp pd/routing/dma_axi32_routed.gds 2>/dev/null &` |
+| **6** | **Diffusion & Substrate Taps** (Active source/drain regions & welltaps) | `./scripts/view_layer.sh diff` | `klayout -l scripts/layers/diff.lyp pd/routing/dma_axi32_routed.gds 2>/dev/null &` |
+| **7** | **Polysilicon Gates Only** (Transistor gate lines across the chip) | `./scripts/view_layer.sh poly` | `klayout -l scripts/layers/poly.lyp pd/routing/dma_axi32_routed.gds 2>/dev/null &` |
+| **8** | **Combined Silicon Device Stack** (Wells + Diffusion + Taps + Poly Gates) | `./scripts/view_layer.sh feol` | `klayout -l scripts/layers/feol.lyp pd/routing/dma_axi32_routed.gds 2>/dev/null &` |
+
+### Part 4: KLayout — Vertical Interconnects (2 Commands)
+| # | What It Shows | Script Command | Direct Command |
+| :---: | :--- | :--- | :--- |
+| **9** | **Contacts & Local Interconnect** (licon, li1, and mcon to Metal 1) | `./scripts/view_layer.sh contacts` | `klayout -l scripts/layers/contacts.lyp pd/routing/dma_axi32_routed.gds 2>/dev/null &` |
+| **10** | **All Inter-Metal Vias** (via1, via2, via3, via4 elevators) | `./scripts/view_layer.sh vias` | `klayout -l scripts/layers/vias.lyp pd/routing/dma_axi32_routed.gds 2>/dev/null &` |
+
+### Part 5: KLayout — Back-End 5-Metal Stack / BEOL (5 Commands)
+| # | What It Shows | Script Command | Direct Command |
+| :---: | :--- | :--- | :--- |
+| **11** | **Metal 1 Only** (Standard cell power/ground rails & local logic) | `./scripts/view_layer.sh met1` | `klayout -l scripts/layers/met1.lyp pd/routing/dma_axi32_routed.gds 2>/dev/null &` |
+| **12** | **Metal 2 Only** (Vertical signal routing & perimeter I/O pins) | `./scripts/view_layer.sh met2` | `klayout -l scripts/layers/met2.lyp pd/routing/dma_axi32_routed.gds 2>/dev/null &` |
+| **13** | **Metal 3 Only** (Horizontal long-distance bus routing & pins) | `./scripts/view_layer.sh met3` | `klayout -l scripts/layers/met3.lyp pd/routing/dma_axi32_routed.gds 2>/dev/null &` |
+| **14** | **Metal 4 Only** (Upper horizontal low-resistance power straps) | `./scripts/view_layer.sh met4` | `klayout -l scripts/layers/met4.lyp pd/routing/dma_axi32_routed.gds 2>/dev/null &` |
+| **15** | **Metal 5 Only** (Top thick vertical power distribution grid mesh) | `./scripts/view_layer.sh met5` | `klayout -l scripts/layers/met5.lyp pd/routing/dma_axi32_routed.gds 2>/dev/null &` |
+
+### Part 6: KLayout — Combined Routing & Master Chip (3 Commands)
+| # | What It Shows | Script Command | Direct Command |
+| :---: | :--- | :--- | :--- |
+| **16** | **All 5 Metals Combined** (Metals 1 through 5 together) | `./scripts/view_layer.sh all` | `klayout -l scripts/layers/metals_all.lyp pd/routing/dma_axi32_routed.gds 2>/dev/null &` |
+| **17** | **Complete Routing Stack Combined** (Contacts + Vias + Metals 1 to 5) | `./scripts/view_layer.sh routing` | `klayout -l scripts/layers/routing_all.lyp pd/routing/dma_axi32_routed.gds 2>/dev/null &` |
+| **18** | **Full Production Chip (PDK Master View)** (All silicon, vias, metals, boundary) | `./scripts/view_gds_klayout.sh` | `klayout -l $HOME/.volare/sky130A/libs.tech/klayout/tech/sky130A.lyp pd/routing/dma_axi32_routed.gds 2>/dev/null &` |
+
+```bash
+# 💡 One-Block Copy-Paste Suite to View Any Layer
+./scripts/view_openroad_gui.sh            # 1. OpenROAD Layout
+gtkwave sim/waveforms/dma_axi32.vcd &     # 2. Baseline Waveform
+gtkwave sim/waveforms/dma_axi32_stress.vcd & # 3. Stress Waveform
+gtkwave sim/waveforms/dma_axi32_ultra_stress.vcd & # 4. Ultra-Stress Waveform
+./scripts/view_layer.sh wells             # 5. Wells
+./scripts/view_layer.sh diff              # 6. Diffusion & Taps
+./scripts/view_layer.sh poly              # 7. Polysilicon Gates
+./scripts/view_layer.sh feol              # 8. Combined Silicon FEOL
+./scripts/view_layer.sh contacts          # 9. Contacts (licon, mcon)
+./scripts/view_layer.sh vias              # 10. All Vias (via1 to via4)
+./scripts/view_layer.sh met1              # 11. Metal 1
+./scripts/view_layer.sh met2              # 12. Metal 2
+./scripts/view_layer.sh met3              # 13. Metal 3
+./scripts/view_layer.sh met4              # 14. Metal 4
+./scripts/view_layer.sh met5              # 15. Metal 5
+./scripts/view_layer.sh all               # 16. All 5 Metals Combined
+./scripts/view_layer.sh routing           # 17. Complete Routing Stack
+./scripts/view_gds_klayout.sh             # 18. Full Production Chip GDSII
+```
+
+---
+
 ## 📁 Repository Directory Structure
 
 ```text
