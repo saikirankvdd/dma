@@ -5,8 +5,8 @@
 # ==============================================================================
 set -e
 
-REPO_DIR="/home/saikiran/dma"
-PDK_ROOT="/home/saikiran/.volare/sky130A"
+REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+PDK_ROOT="${PDK_ROOT:-$HOME/.volare/sky130A}"
 SCL_LIB="sky130_fd_sc_hd"
 DEF_FILE="$REPO_DIR/pd/routing/dma_axi32_routed.def"
 TCL_CMD="$REPO_DIR/pd/scripts/.openroad_view.tcl"

@@ -59,8 +59,8 @@ read_verilog -Idma_axi/src/dma_axi32 dma_axi/src/dma_axi32/prgen_delay.v
 synth -top dma_axi32 -flatten
 
 # 3. Standard Cell Mapping (SkyWater 130nm)
-dfflibmap -liberty /home/saikiran/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-abc -liberty /home/saikiran/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+dfflibmap -liberty $ENV{HOME}/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty $ENV{HOME}/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 # 4. Tie-off high/low cell insertion & port splitting
 hilomap -hicell sky130_fd_sc_hd__conb_1 HI -locell sky130_fd_sc_hd__conb_1 LO
@@ -69,4 +69,4 @@ opt_clean -purge
 
 # 5. Output Gate Netlist & Area Statistics
 write_verilog -noattr synth/reports/dma_axi32_synth.v
-stat -liberty /home/saikiran/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+stat -liberty $ENV{HOME}/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib

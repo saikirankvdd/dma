@@ -18,8 +18,8 @@
 ###############################################################################
 
 LAYER="${1:-all}"
-GDS_FILE="/home/saikiran/dma/pd/routing/dma_axi32_routed.gds"
-SCRIPT_DIR="/home/saikiran/dma/scripts/layers"
+GDS_FILE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/pd/routing/dma_axi32_routed.gds"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/scripts/layers"
 
 case "$LAYER" in
     feol|device|devices|wells_all|silicon)
@@ -76,7 +76,7 @@ case "$LAYER" in
         ;;
 esac
 
-export LD_LIBRARY_PATH="/home/saikiran/.local/usr/lib/klayout:/home/saikiran/.local/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}"
+export LD_LIBRARY_PATH="$HOME/.local/usr/lib/klayout:$HOME/.local/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}"
 
 echo "=========================================================================="
 echo " Launching KLayout for: $DESC"

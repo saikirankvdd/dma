@@ -4,7 +4,7 @@
 # ==============================================================================
 
 set RTL_DIR "dma_axi/src/dma_axi32"
-set PDK_LIB "/home/saikiran/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+set PDK_LIB "$::env(HOME)/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
 
 yosys -import
 

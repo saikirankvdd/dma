@@ -104,8 +104,8 @@ sudo apt-get install -y iverilog gtkwave yosys build-essential python3-pip
 ### 2. Install OpenROAD v2.0 & KLayout v0.28+
 Ensure `openroad` and `klayout` are accessible in your path. If installed to `~/.local`, configure your library paths:
 ```bash
-export LD_LIBRARY_PATH="/home/saikiran/.local/openroad/usr/lib:/home/saikiran/.local/usr/lib/klayout:/home/saikiran/.local/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}"
-export PATH="/home/saikiran/.local/bin:${PATH}"
+export LD_LIBRARY_PATH="$HOME/.local/openroad/usr/lib:$HOME/.local/usr/lib/klayout:$HOME/.local/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}"
+export PATH="$HOME/.local/bin:${PATH}"
 ```
 
 ### 3. Install SkyWater 130nm Open-Source PDK via Volare
@@ -113,7 +113,7 @@ export PATH="/home/saikiran/.local/bin:${PATH}"
 pip3 install volare
 volare enable --pdk sky130 0fe599b2afb6708d281543108caf8310912f54af
 ```
-*PDK Target Location:* `/home/saikiran/.volare/sky130A`
+*PDK Target Location:* `$HOME/.volare/sky130A`
 
 ---
 
@@ -123,7 +123,7 @@ Clone the repository and run any stage of the flow with single commands:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/saikirankvdd/dma.git
+git clone https://github.com/<your-username>/dma.git
 cd dma
 
 # 2. Run RTL Functional Simulation & Dump Waveforms
@@ -369,6 +369,6 @@ dma/
 ## 📜 Authors & Acknowledgments
 
 * **Original RTL Architecture & IP Core:** **Eyal Hochberg**, **Provartec Ltd.** ([OpenCores.org](http://www.opencores.org)). Released under the GNU Lesser General Public License (LGPL v2.1).
-* **ASIC Implementation & Physical Design:** **Sai Kiran** ([@saikirankvdd](https://github.com/saikirankvdd))
+* **ASIC Implementation & Physical Design:** **Physical Design & Verification Engineer**
 * **Target Foundry:** SkyWater Technology (130nm High-Density CMOS)
 * **EDA Toolchain:** OpenROAD Project, Yosys, KLayout, Icarus Verilog, GTKWave, Volare

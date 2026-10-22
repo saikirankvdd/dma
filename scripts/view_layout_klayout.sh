@@ -3,16 +3,16 @@
 # Interactive KLayout GUI Viewer with SkyWater 130nm PDK Technology Stack
 ###############################################################################
 
-DEF_FILE="${1:-/home/saikiran/dma/pd/routing/dma_axi32_routed.def}"
-PDK_ROOT="/home/saikiran/.volare/sky130A"
+DEF_FILE="${1:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/pd/routing/dma_axi32_routed.def}"
+PDK_ROOT="${PDK_ROOT:-$HOME/.volare/sky130A}"
 TECH_LEF="$PDK_ROOT/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef"
 CELL_LEF="$PDK_ROOT/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef"
 LYT="$PDK_ROOT/libs.tech/klayout/tech/sky130A.lyt"
 LYP="$PDK_ROOT/libs.tech/klayout/tech/sky130A.lyp"
 LYM="$PDK_ROOT/libs.tech/klayout/tech/sky130A.map"
-SCRIPT="/home/saikiran/.local/lib/python3.12/site-packages/openlane/scripts/klayout/open_design.py"
+SCRIPT="$HOME/.local/lib/python3.12/site-packages/openlane/scripts/klayout/open_design.py"
 
-export LD_LIBRARY_PATH="/home/saikiran/.local/usr/lib/klayout:/home/saikiran/.local/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}"
+export LD_LIBRARY_PATH="$HOME/.local/usr/lib/klayout:$HOME/.local/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}"
 
 echo "Opening $DEF_FILE in KLayout GUI with Sky130 technology..."
 export KLAYOUT_ARGV="-l $TECH_LEF -l $CELL_LEF -T $LYT -P $LYP -M $LYM $DEF_FILE"

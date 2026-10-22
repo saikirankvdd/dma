@@ -5,11 +5,11 @@
 ###############################################################################
 
 set DESIGN_NAME "dma_axi32"
-set PDK_ROOT    "/home/saikiran/.volare/sky130A"
+if {[info exists ::env(PDK_ROOT)]} { set PDK_ROOT $::env(PDK_ROOT) } else { set PDK_ROOT "$::env(HOME)/.volare/sky130A" }
 set SCL_LIB     "sky130_fd_sc_hd"
-set CTS_DEF     "/home/saikiran/dma/pd/cts/dma_axi32_cts.def"
-set SDC_FILE    "/home/saikiran/dma/constraints/dma_axi32.sdc"
-set OUT_DIR     "/home/saikiran/dma/pd"
+set CTS_DEF     "[file normalize [file dirname [info script]]/../..]/pd/cts/dma_axi32_cts.def"
+set SDC_FILE    "[file normalize [file dirname [info script]]/../..]/constraints/dma_axi32.sdc"
+set OUT_DIR     "[file normalize [file dirname [info script]]/../..]/pd"
 
 puts "=========================================================================="
 puts " Step 1: Loading Technology & Cell LEFs and Liberty Timing Models        "

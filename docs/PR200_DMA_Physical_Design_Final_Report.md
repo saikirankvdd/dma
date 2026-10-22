@@ -29,13 +29,13 @@ All steps follow standard Cadence Innovus / Synopsys ICC2 equivalents using open
 The layouts below were generated through automated KLayout stream-out and rendering against the official SkyWater 130nm layer property (`.lyp`) and technology (`.lyt`) definitions.
 
 ````carousel
-![Floorplan & 377 Perimeter Pins](/home/saikiran/.gemini/antigravity-ide/brain/d52ecbf3-2703-49c5-8d64-14673ed39b3d/dma_axi32_floorplan.png)
+![Floorplan & 377 Perimeter Pins](docs/images/dma_axi32_floorplan.png)
 <!-- slide -->
-![Placed Standard Cells & Welltaps](/home/saikiran/.gemini/antigravity-ide/brain/d52ecbf3-2703-49c5-8d64-14673ed39b3d/dma_axi32_placed.png)
+![Placed Standard Cells & Welltaps](docs/images/dma_axi32_placed.png)
 <!-- slide -->
-![Clock Tree Synthesis with Hold Buffers](/home/saikiran/.gemini/antigravity-ide/brain/d52ecbf3-2703-49c5-8d64-14673ed39b3d/dma_axi32_cts.png)
+![Clock Tree Synthesis with Hold Buffers](docs/images/dma_axi32_cts.png)
 <!-- slide -->
-![Final 5-Layer Routed Silicon Chip (GDSII Stream-Out)](/home/saikiran/.gemini/antigravity-ide/brain/d52ecbf3-2703-49c5-8d64-14673ed39b3d/dma_axi32_routed.png)
+![Final 5-Layer Routed Silicon Chip (GDSII Stream-Out)](docs/images/dma_axi32_routed.png)
 ````
 
 ---
@@ -43,9 +43,9 @@ The layouts below were generated through automated KLayout stream-out and render
 ## 3. Stage-by-Stage Implementation
 
 ### Stage 0: RTL Architecture & Functional Simulation Verification
-- **Testbench**: [`tb/tb_dma_axi32.v`](file:///home/saikiran/dma/tb/tb_dma_axi32.v)
-- **Waveform Dump**: [`sim/waveforms/dma_axi32.vcd`](file:///home/saikiran/dma/sim/waveforms/dma_axi32.vcd)
-- **Simulation Runner**: [`scripts/run_sim_pr200.sh`](file:///home/saikiran/dma/scripts/run_sim_pr200.sh)
+- **Testbench**: [`tb/tb_dma_axi32.v`](tb/tb_dma_axi32.v)
+- **Waveform Dump**: [`sim/waveforms/dma_axi32.vcd`](sim/waveforms/dma_axi32.vcd)
+- **Simulation Runner**: [`scripts/run_sim_pr200.sh`](scripts/run_sim_pr200.sh)
 
 A decoupled, cycle-accurate AXI3 memory slave model was constructed to handle independent `AW` address queues, burst write beats (`WDATA`), and `B` turnaround. Channel 0 static and command registers were configured via APB3:
 1. `CMD_LINE0` (Src Addr): `0x00000100`
@@ -60,9 +60,9 @@ A decoupled, cycle-accurate AXI3 memory slave model was constructed to handle in
 ---
 
 ### Stage 1: Logic Synthesis (Yosys)
-- **Synthesis Script**: [`synth/scripts/synth_pr200.ys`](file:///home/saikiran/dma/synth/scripts/synth_pr200.ys)
-- **Synthesized Gate Netlist**: [`synth/reports/dma_axi32_synth.v`](file:///home/saikiran/dma/synth/reports/dma_axi32_synth.v) (61,425 lines, 2.3 MB)
-- **Synthesis Report**: [`synth/reports/synth_stat.txt`](file:///home/saikiran/dma/synth/reports/synth_stat.txt)
+- **Synthesis Script**: [`synth/scripts/synth_pr200.ys`](synth/scripts/synth_pr200.ys)
+- **Synthesized Gate Netlist**: [`synth/reports/dma_axi32_synth.v`](synth/reports/dma_axi32_synth.v) (61,425 lines, 2.3 MB)
+- **Synthesis Report**: [`synth/reports/synth_stat.txt`](synth/reports/synth_stat.txt)
 
 | Metric | Measured Value |
 | :--- | :--- |
@@ -76,7 +76,7 @@ A decoupled, cycle-accurate AXI3 memory slave model was constructed to handle in
 ---
 
 ### Stage 2: Design Constraints (SDC)
-- **Constraints File**: [`constraints/dma_axi32.sdc`](file:///home/saikiran/dma/constraints/dma_axi32.sdc)
+- **Constraints File**: [`constraints/dma_axi32.sdc`](constraints/dma_axi32.sdc)
 
 ```tcl
 current_design dma_axi32
@@ -96,7 +96,7 @@ set_timing_derate -late  1.05
 ---
 
 ### Stage 3 & 4: Floorplanning, Pins & Power Distribution (PDN)
-- **Floorplan & PDN DEF**: [`pd/floorplan/dma_axi32_pdn.def`](file:///home/saikiran/dma/pd/floorplan/dma_axi32_pdn.def)
+- **Floorplan & PDN DEF**: [`pd/floorplan/dma_axi32_pdn.def`](pd/floorplan/dma_axi32_pdn.def)
 
 - **Die Dimensions**: $462.92\,\mu\text{m} \times 462.92\,\mu\text{m}$ (Area: $214,295\,\mu\text{m}^2$)
 - **Core Dimensions**: $422.28\,\mu\text{m} \times 418.88\,\mu\text{m}$ (Area: $176,885\,\mu\text{m}^2$)
@@ -111,7 +111,7 @@ set_timing_derate -late  1.05
 ---
 
 ### Stage 5: Placement & Optimization
-- **Placed DEF**: [`pd/placement/dma_axi32_placed.def`](file:///home/saikiran/dma/pd/placement/dma_axi32_placed.def)
+- **Placed DEF**: [`pd/placement/dma_axi32_placed.def`](pd/placement/dma_axi32_placed.def)
 
 1. **Global Placement**: Analytical solver (RePlace) solved placement density with final overflow = $0.098$.
 2. **Design Repair**: Inserted 49 long-wire buffers, resized 96 high-fanout drivers, and split tie-high/tie-low nets (`conb_1`).
@@ -120,8 +120,8 @@ set_timing_derate -late  1.05
 ---
 
 ### Stage 6: Clock Tree Synthesis (CTS)
-- **CTS DEF**: [`pd/cts/dma_axi32_cts.def`](file:///home/saikiran/dma/pd/cts/dma_axi32_cts.def)
-- **Skew Reports**: [`pd/reports/cts_skew_setup.rpt`](file:///home/saikiran/dma/pd/reports/cts_skew_setup.rpt), [`pd/reports/cts_skew_hold.rpt`](file:///home/saikiran/dma/pd/reports/cts_skew_hold.rpt)
+- **CTS DEF**: [`pd/cts/dma_axi32_cts.def`](pd/cts/dma_axi32_cts.def)
+- **Skew Reports**: [`pd/reports/cts_skew_setup.rpt`](pd/reports/cts_skew_setup.rpt), [`pd/reports/cts_skew_hold.rpt`](pd/reports/cts_skew_hold.rpt)
 
 - **Clock Sinks**: 1,625 register clock pins.
 - **Topology**: 7-level symmetric H-Tree (TritonCTS) utilizing `clkbuf_16`, `clkbuf_8`, `clkbuf_4`, and `clkbuf_2`.
@@ -136,8 +136,8 @@ set_timing_derate -late  1.05
 ---
 
 ### Stage 7: Routing & Filler Insertion
-- **Routed DEF**: [`pd/routing/dma_axi32_routed.def`](file:///home/saikiran/dma/pd/routing/dma_axi32_routed.def) (11 MB)
-- **Routing Guide**: [`pd/routing/route.guide`](file:///home/saikiran/dma/pd/routing/route.guide) (2.7 MB)
+- **Routed DEF**: [`pd/routing/dma_axi32_routed.def`](pd/routing/dma_axi32_routed.def) (11 MB)
+- **Routing Guide**: [`pd/routing/route.guide`](pd/routing/route.guide) (2.7 MB)
 
 - **Global Routing**: FastRoute generated congestion-free routing guides for all 9,473 nets.
 - **Detailed Routing**: TritonRoute executed multi-threaded parallel routing across 12 CPU cores.
@@ -154,9 +154,9 @@ set_timing_derate -late  1.05
 ---
 
 ### Stage 8: Signoff Static Timing Analysis (STA)
-- **Setup Report**: [`pd/reports/sta_setup.rpt`](file:///home/saikiran/dma/pd/reports/sta_setup.rpt)
-- **Hold Report**: [`pd/reports/sta_hold.rpt`](file:///home/saikiran/dma/pd/reports/sta_hold.rpt)
-- **Summary Metrics**: [`pd/reports/worst_setup_slack.rpt`](file:///home/saikiran/dma/pd/reports/worst_setup_slack.rpt), [`pd/reports/worst_hold_slack.rpt`](file:///home/saikiran/dma/pd/reports/worst_hold_slack.rpt)
+- **Setup Report**: [`pd/reports/sta_setup.rpt`](pd/reports/sta_setup.rpt)
+- **Hold Report**: [`pd/reports/sta_hold.rpt`](pd/reports/sta_hold.rpt)
+- **Summary Metrics**: [`pd/reports/worst_setup_slack.rpt`](pd/reports/worst_setup_slack.rpt), [`pd/reports/worst_hold_slack.rpt`](pd/reports/worst_hold_slack.rpt)
 
 | Timing Metric | Signoff Threshold | Measured Value | Signoff Status |
 | :--- | :--- | :--- | :---: |
@@ -170,8 +170,8 @@ set_timing_derate -late  1.05
 ---
 
 ## 4. Stage 9: Physical Verification & GDSII Stream-Out
-- **GDSII Stream-Out File**: [`pd/routing/dma_axi32_routed.gds`](file:///home/saikiran/dma/pd/routing/dma_axi32_routed.gds) (16 MB)
-- **Rendered Snapshot**: [`pd/routing/dma_axi32_routed.png`](file:///home/saikiran/dma/pd/routing/dma_axi32_routed.png)
+- **GDSII Stream-Out File**: [`pd/routing/dma_axi32_routed.gds`](pd/routing/dma_axi32_routed.gds) (16 MB)
+- **Rendered Snapshot**: [`pd/routing/dma_axi32_routed.png`](pd/routing/dma_axi32_routed.png)
 
 KLayout merged the routed DEF and standard cell layout databases with zero missing cells:
 ```text
@@ -212,16 +212,16 @@ KLayout merged the routed DEF and standard cell layout databases with zero missi
 
 | File Path | Description | Size |
 | :--- | :--- | :--- |
-| [`tb/tb_dma_axi32.v`](file:///home/saikiran/dma/tb/tb_dma_axi32.v) | Self-checking APB/AXI simulation testbench | 12 KB |
-| [`sim/waveforms/dma_axi32.vcd`](file:///home/saikiran/dma/sim/waveforms/dma_axi32.vcd) | Simulation waveform file | 21 MB |
-| [`synth/reports/dma_axi32_synth.v`](file:///home/saikiran/dma/synth/reports/dma_axi32_synth.v) | Synthesized SkyWater 130nm gate-level netlist | 2.3 MB |
-| [`constraints/dma_axi32.sdc`](file:///home/saikiran/dma/constraints/dma_axi32.sdc) | SDC timing constraints ($50\,\text{MHz}$) | 1.1 KB |
-| [`pd/floorplan/dma_axi32_pdn.def`](file:///home/saikiran/dma/pd/floorplan/dma_axi32_pdn.def) | Floorplan and PDN DEF file | 2.6 MB |
-| [`pd/placement/dma_axi32_placed.def`](file:///home/saikiran/dma/pd/placement/dma_axi32_placed.def) | Legalized standard cell placement DEF | 2.9 MB |
-| [`pd/cts/dma_axi32_cts.def`](file:///home/saikiran/dma/pd/cts/dma_axi32_cts.def) | Clock Tree Synthesis (CTS) DEF | 3.0 MB |
-| [`pd/routing/dma_axi32_routed.def`](file:///home/saikiran/dma/pd/routing/dma_axi32_routed.def) | Final 5-metal-layer routed DEF with fillers | 11 MB |
-| [`pd/routing/dma_axi32_routed.gds`](file:///home/saikiran/dma/pd/routing/dma_axi32_routed.gds) | Production-ready GDSII tapeout layout | 16 MB |
-| [`pd/routing/dma_axi32_routed.png`](file:///home/saikiran/dma/pd/routing/dma_axi32_routed.png) | High-resolution rendered silicon layout | 211 KB |
-| [`pd/reports/sta_setup.rpt`](file:///home/saikiran/dma/pd/reports/sta_setup.rpt) | Signoff setup timing check report | 45 KB |
-| [`pd/reports/sta_hold.rpt`](file:///home/saikiran/dma/pd/reports/sta_hold.rpt) | Signoff hold timing check report | 38 KB |
-| [`scripts/view_layout_klayout.sh`](file:///home/saikiran/dma/scripts/view_layout_klayout.sh) | Interactive KLayout GUI launcher with Sky130 PDK | 1 KB |
+| [`tb/tb_dma_axi32.v`](tb/tb_dma_axi32.v) | Self-checking APB/AXI simulation testbench | 12 KB |
+| [`sim/waveforms/dma_axi32.vcd`](sim/waveforms/dma_axi32.vcd) | Simulation waveform file | 21 MB |
+| [`synth/reports/dma_axi32_synth.v`](synth/reports/dma_axi32_synth.v) | Synthesized SkyWater 130nm gate-level netlist | 2.3 MB |
+| [`constraints/dma_axi32.sdc`](constraints/dma_axi32.sdc) | SDC timing constraints ($50\,\text{MHz}$) | 1.1 KB |
+| [`pd/floorplan/dma_axi32_pdn.def`](pd/floorplan/dma_axi32_pdn.def) | Floorplan and PDN DEF file | 2.6 MB |
+| [`pd/placement/dma_axi32_placed.def`](pd/placement/dma_axi32_placed.def) | Legalized standard cell placement DEF | 2.9 MB |
+| [`pd/cts/dma_axi32_cts.def`](pd/cts/dma_axi32_cts.def) | Clock Tree Synthesis (CTS) DEF | 3.0 MB |
+| [`pd/routing/dma_axi32_routed.def`](pd/routing/dma_axi32_routed.def) | Final 5-metal-layer routed DEF with fillers | 11 MB |
+| [`pd/routing/dma_axi32_routed.gds`](pd/routing/dma_axi32_routed.gds) | Production-ready GDSII tapeout layout | 16 MB |
+| [`pd/routing/dma_axi32_routed.png`](pd/routing/dma_axi32_routed.png) | High-resolution rendered silicon layout | 211 KB |
+| [`pd/reports/sta_setup.rpt`](pd/reports/sta_setup.rpt) | Signoff setup timing check report | 45 KB |
+| [`pd/reports/sta_hold.rpt`](pd/reports/sta_hold.rpt) | Signoff hold timing check report | 38 KB |
+| [`scripts/view_layout_klayout.sh`](scripts/view_layout_klayout.sh) | Interactive KLayout GUI launcher with Sky130 PDK | 1 KB |

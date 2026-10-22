@@ -94,7 +94,7 @@ The PR200 architecture recognizes that SoCs have two completely different types 
 In a full dual-core build, Core 0 handles high-speed memory streaming, while Core 1 handles slow peripherals (optionally running on a divided slower clock to save dynamic power).
 
 ### 2.3 What Does Our Checked-Out Repository (`dma_axi`) Contain?
-In our cloned repository (`/home/saikiran/dma/dma_axi`), the author checked in two concrete, pre-generated configurations:
+In our cloned repository (`<project-root>/dma_axi`), the author checked in two concrete, pre-generated configurations:
 1. **`src/dma_axi32/`**: A fully elaborated **32-bit AXI** implementation.
 2. **`src/dma_axi64/`**: A fully elaborated **64-bit AXI** implementation.
 

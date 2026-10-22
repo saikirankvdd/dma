@@ -6,7 +6,7 @@ echo " Stage 1: Running Yosys Synthesis for PR200 (dma_axi32)"
 echo " Target: SkyWater 130nm (sky130_fd_sc_hd)"
 echo "=========================================================="
 
-cd /home/saikiran/dma
+cd $(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 mkdir -p synth/reports
 
 # Run Yosys with our TCL script

@@ -5,11 +5,11 @@
 ###############################################################################
 
 set DESIGN_NAME "dma_axi32"
-set PDK_ROOT    "/home/saikiran/.volare/sky130A"
+if {[info exists ::env(PDK_ROOT)]} { set PDK_ROOT $::env(PDK_ROOT) } else { set PDK_ROOT "$::env(HOME)/.volare/sky130A" }
 set SCL_LIB     "sky130_fd_sc_hd"
-set NETLIST     "/home/saikiran/dma/synth/reports/dma_axi32_synth.v"
-set SDC_FILE    "/home/saikiran/dma/constraints/dma_axi32.sdc"
-set OUT_DIR     "/home/saikiran/dma/pd"
+set NETLIST     "[file normalize [file dirname [info script]]/../..]/synth/reports/dma_axi32_synth.v"
+set SDC_FILE    "[file normalize [file dirname [info script]]/../..]/constraints/dma_axi32.sdc"
+set OUT_DIR     "[file normalize [file dirname [info script]]/../..]/pd"
 
 puts "=========================================================================="
 puts " Stage 2: Loading Tech LEFs, Standard Cell LEFs, and Liberty Models       "

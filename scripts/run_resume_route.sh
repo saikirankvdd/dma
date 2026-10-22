@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e
 
-PROJECT_ROOT="/home/saikiran/dma"
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 LOG_FILE="$PROJECT_ROOT/pd/reports/openroad_resume_route.log"
-PDK_ROOT="/home/saikiran/.volare/sky130A"
+PDK_ROOT="${PDK_ROOT:-$HOME/.volare/sky130A}"
 
 echo "=========================================================="
 echo " Launching 12-Thread Accelerated Resume Routing & Signoff"
@@ -14,7 +14,7 @@ echo "=========================================================="
 
 mkdir -p "$PROJECT_ROOT/pd/reports" "$PROJECT_ROOT/pd/routing"
 
-export LD_LIBRARY_PATH="/home/saikiran/.local/openroad/usr/lib:/home/saikiran/.local/openroad/usr/lib/x86_64-linux-gnu:/home/saikiran/.local/openroad/opt/or-tools/lib:/home/saikiran/.local/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}"
+export LD_LIBRARY_PATH="$HOME/.local/openroad/usr/lib:$HOME/.local/openroad/usr/lib/x86_64-linux-gnu:$HOME/.local/openroad/opt/or-tools/lib:$HOME/.local/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}"
 
 openroad -exit "$PROJECT_ROOT/pd/scripts/run_resume_route.tcl" 2>&1 | tee "$LOG_FILE"
 
@@ -23,7 +23,7 @@ echo "=========================================================="
 echo " Detailed Routing Complete! Streaming out final GDSII..."
 echo "=========================================================="
 
-python3 /home/saikiran/.local/lib/python3.12/site-packages/openlane/scripts/klayout/stream_out.py \
+python3 $HOME/.local/lib/python3.12/site-packages/openlane/scripts/klayout/stream_out.py \
     -o "$PROJECT_ROOT/pd/routing/dma_axi32_routed.gds" \
     -l "$PDK_ROOT/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef" \
     -l "$PDK_ROOT/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef" \
@@ -39,7 +39,7 @@ echo "=========================================================="
 echo " Rendering Final Layout Snapshot..."
 echo "=========================================================="
 
-python3 /home/saikiran/.local/lib/python3.12/site-packages/openlane/scripts/klayout/render.py \
+python3 $HOME/.local/lib/python3.12/site-packages/openlane/scripts/klayout/render.py \
     -o "$PROJECT_ROOT/pd/routing/dma_axi32_routed.png" \
     -l "$PDK_ROOT/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef" \
     -l "$PDK_ROOT/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef" \

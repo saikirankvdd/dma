@@ -5,7 +5,7 @@ echo "=========================================================="
 echo " Stage 0: Compiling & Simulating PR200 dma_axi32 RTL"
 echo "=========================================================="
 
-cd /home/saikiran/dma
+cd $(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 
 # Gather all 48 source files
 RTL_DIR="dma_axi/src/dma_axi32"

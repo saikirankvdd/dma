@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-PROJECT_ROOT="/home/saikiran/dma"
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 LOG_FILE="$PROJECT_ROOT/pd/reports/openroad_pnr.log"
 
 echo "=========================================================="
@@ -13,7 +13,7 @@ echo "=========================================================="
 mkdir -p "$PROJECT_ROOT/pd/reports" "$PROJECT_ROOT/pd/floorplan" \
          "$PROJECT_ROOT/pd/placement" "$PROJECT_ROOT/pd/cts" "$PROJECT_ROOT/pd/routing"
 
-export LD_LIBRARY_PATH="/home/saikiran/.local/openroad/usr/lib:/home/saikiran/.local/openroad/usr/lib/x86_64-linux-gnu:/home/saikiran/.local/openroad/opt/or-tools/lib:/home/saikiran/.local/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}"
+export LD_LIBRARY_PATH="$HOME/.local/openroad/usr/lib:$HOME/.local/openroad/usr/lib/x86_64-linux-gnu:$HOME/.local/openroad/opt/or-tools/lib:$HOME/.local/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}"
 
 openroad -exit "$PROJECT_ROOT/pd/scripts/run_pd_flow.tcl" 2>&1 | tee "$LOG_FILE"
 
